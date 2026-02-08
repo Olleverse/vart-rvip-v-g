@@ -1,15 +1,14 @@
 {
-    "driftsplatser": [
-        { "short": "G", "name": "Göteborg C", "bandel": "401" },
-        { "short": "Mø", "name": "Mölndal", "bandel": "401" },
-        { "short": "K", "name": "Kungsbacka", "bandel": "401" }
-    ],
-
-    "bandelar": [
-        { "id": "401", "from": "Göteborg C", "to": "Kungsbacka", "points": ["G", "Mø", "K"] }
-    ],
-
-    "linjebocker": [
-        { "id": "L1", "name": "Bohusbanan / Västkustbanan Göteborg–Kungsbacka", "bandelar": ["401"] }
-    ]
+  "driftplatser": [
+    { "code": "G", "name": "Göteborg C" },
+    { "code": "Mø", "name": "Mölndal" },
+    { "code": "K", "name": "Kungsbacka" }
+  ],
+  "linjebocker": [
+    { "id": "L1", "name": "Västkustbanan Göteborg–Kungsbacka" }
+  ],
+  "edges": [
+    { "from": "G", "to": "Mø", "bandel": "401", "linjebocker": ["L1"] },
+    { "from": "Mø", "to": "K", "bandel": "401", "linjebocker": ["L1"] }
+  ]
 }
