@@ -1,1 +1,884 @@
+{
+  "adminPin": "6431",
+  "linjebocker": [
+    { "id": "MAL", "name": "Malmö" }
+    { "id": "GBG", "name": "Göteborg" }
+  ],
+  "driftplatser": [
+  { "code": "Am", "name": "Almedal" },
+  { "code": "Mdö", "name": "Mölndals Övre" },
+  { "code": "Myk", "name": "Mölnlycke" },
+  { "code": "Häy", "name": "Härryda" },
+  { "code": "Hås", "name": "Hindås" },
+  { "code": "Rd", "name": "Rävlanda" },
+  { "code": "Boy", "name": "Bollebygd" },
+  { "code": "Rö", "name": "Rödberg" },
+  { "code": "Sae", "name": "Sandared" },
+  { "code": "Bsc", "name": "Borås central" },
+  { "code": "Apd", "name": "Aplared" },
+  { "code": "Hil", "name": "Hillared" },
+  { "code": "Lme", "name": "Limmared" },
+  { "code": "Grm", "name": "Grimsås" },
+  { "code": "Het", "name": "Hestra" },
+  { "code": "Gnö", "name": "Gnosjö" },
+  { "code": "Hto", "name": "Hillerstorp" },
 
+  { "code": "Alh", "name": "Alvhem" },
+  { "code": "Löö", "name": "Lödöse" },
+  { "code": "Let", "name": "Lilla Edet" },
+
+  { "code": "Bef", "name": "Bengtsfors" },
+  { "code": "Tjs", "name": "Tjugonde slussen" },
+  { "code": "Bfo", "name": "Billingsfors" },
+  { "code": "Flgd", "name": "Friluftsgården" },
+  { "code": "Lgb", "name": "Långbron" },
+  { "code": "Dld", "name": "Dals Långed" },
+  { "code": "Tsl", "name": "Tisselskog" },
+  { "code": "But", "name": "Buterud" },
+  { "code": "Rån", "name": "Råsjön" },
+  { "code": "Hvr", "name": "Håverud" },
+  { "code": "Åb", "name": "Åsensbruk" },
+  { "code": "Skru", "name": "Skållerud" },
+  { "code": "Ml", "name": "Mellerud" },
+
+  { "code": "Vf", "name": "Vartofta" },
+  { "code": "Sm", "name": "Sandhem" },
+  { "code": "Mu", "name": "Mullsjö" },
+  { "code": "Ho", "name": "Habo" },
+  { "code": "Bry", "name": "Bankeryd" },
+  { "code": "Hka", "name": "Huskvarna" },
+  { "code": "Th", "name": "Tenhult" },
+  { "code": "Fm", "name": "Forserum" },
+  { "code": "Kröb", "name": "Krökesbo" },
+  { "code": "Äng", "name": "Äng" },
+
+  { "code": "Gdö", "name": "Gårdsjö" },
+  { "code": "Hova", "name": "Hova" },
+  { "code": "Tvd", "name": "Torved" },
+  { "code": "Lyd", "name": "Lyrestad" },
+  { "code": "Hsr", "name": "Hasslerör" },
+  { "code": "Mst", "name": "Mariestad" },
+  { "code": "Lnå", "name": "Lugnås" },
+  { "code": "Äsr", "name": "Äskekärr" },
+  { "code": "Öäg", "name": "Österäng" },
+  { "code": "Fhm", "name": "Forshem" },
+  { "code": "Hlk", "name": "Hällekis" },
+  { "code": "Rbk", "name": "Råbäck" },
+  { "code": "Trm", "name": "Trolmen" },
+  { "code": "Bmb", "name": "Blomberg" },
+  { "code": "Kll", "name": "Källby" },
+  { "code": "Fiä", "name": "Filsbäck" },
+  { "code": "Lkp", "name": "Lidköping" },
+  { "code": "Fc", "name": "Framnäs City" },
+  { "code": "Lve", "name": "Lovene" },
+  { "code": "Jps", "name": "Järpås" },
+  { "code": "Stlv", "name": "Stora Levene" },
+  { "code": "Håp", "name": "Håkantorp" },
+
+  { "code": "Gro", "name": "Gubbero" },
+  { "code": "Lis", "name": "Liseberg" },
+  { "code": "Mdn", "name": "Mölndals Nedre" },
+  { "code": "Krd", "name": "Kållered" },
+  { "code": "Ldo", "name": "Lindome" },
+  { "code": "Ag", "name": "Anneberg" },
+  { "code": "Lgd", "name": "Ledsgård" },
+  { "code": "Khe", "name": "Kungsbacka Hede" },
+  { "code": "Kb", "name": "Kungsbacka" },
+  { "code": "Lek", "name": "Lekarekulle" },
+  { "code": "Åsa", "name": "Åsa" },
+  { "code": "Få", "name": "Frillesås" },
+  { "code": "Vrö", "name": "Värö" },
+  { "code": "Vbgb", "name": "Varbergs godsbangård" },
+  { "code": "Vbc", "name": "Varbergs central" },
+  { "code": "Haa", "name": "Hamra" },
+  { "code": "Tye", "name": "Tyllered" },
+  { "code": "Teo", "name": "Torebo" },
+  { "code": "Fabp", "name": "Falkenberg personstation" },
+  { "code": "He", "name": "Heberg" },
+  { "code": "Bp", "name": "Brännarp" },
+  { "code": "Btp", "name": "Biskopstorp" },
+
+  { "code": "Gk", "name": "Göteborg Kville" },
+  { "code": "Sär", "name": "Sävenäs rangerbangård" },
+  { "code": "Gbm", "name": "Göteborg Marieholm" },
+  { "code": "Gli", "name": "Göteborg Lindholmen" },
+  { "code": "Pöb", "name": "Pölsebo" },
+  { "code": "Gsh", "name": "Göteborg Skandiahamnen" },
+
+  { "code": "Lju", "name": "Ljung" },
+  { "code": "Top", "name": "Torpåkra" },
+  { "code": "Moy", "name": "Mollaryd" },
+  { "code": "Boa", "name": "Borgstena" },
+  { "code": "Fra", "name": "Fristad" },
+  { "code": "Nosk", "name": "Nordskogen" },
+  { "code": "Knl", "name": "Knalleland" },
+  { "code": "Vfo", "name": "Viskafors" },
+  { "code": "Frl", "name": "Fritsla" },
+  { "code": "Kin", "name": "Kinna" },
+  { "code": "Asb", "name": "Assberg" },
+  { "code": "See", "name": "Skene" },
+  { "code": "Bgm", "name": "Berghem" },
+  { "code": "Bjo", "name": "Björketorp" },
+  { "code": "Hre", "name": "Horred" },
+  { "code": "Jäy", "name": "Järlövsby" },
+  { "code": "Vdi", "name": "Veddige" },
+  { "code": "Dre", "name": "Derome" },
+  { "code": "Tof", "name": "Tofta" },
+
+  { "code": "Kil", "name": "Kil" },
+  { "code": "El", "name": "Edsvalla" },
+  { "code": "Våb", "name": "Vålberg" },
+  { "code": "Gms", "name": "Grums" },
+  { "code": "Sgm", "name": "Segmon" },
+  { "code": "Vdb", "name": "Värmlands Bro" },
+  { "code": "Byä", "name": "Byälven" },
+  { "code": "Sfl", "name": "Säffle" },
+  { "code": "Ål", "name": "Åmål" },
+  { "code": "Töe", "name": "Tösse" },
+  { "code": "Ånm", "name": "Ånimskog" },
+  { "code": "Kpm", "name": "Köpmannebro" },
+  { "code": "Erk", "name": "Erikstad" },
+  { "code": "Skbl", "name": "Skälebol" },
+  { "code": "Brl", "name": "Brålanda" },
+  { "code": "Fdf", "name": "Frändefors" },
+  { "code": "Bjh", "name": "Bjurhem" },
+  { "code": "Öx", "name": "Öxnered" },
+  { "code": "Thn", "name": "Trollhättan" },
+  { "code": "Veas", "name": "Velanda södra" },
+  { "code": "Vpm", "name": "Varpemossen" },
+  { "code": "Tbn", "name": "Torbacken" },
+  { "code": "Les", "name": "Lödöse Södra" },
+  { "code": "Än", "name": "Älvängen" },
+  { "code": "Nol", "name": "Nol" },
+  { "code": "Nöe", "name": "Nödinge" },
+  { "code": "Bhs", "name": "Bohus" },
+  { "code": "Sue", "name": "Surte" },
+  { "code": "Agb", "name": "Agnesberg" },
+  { "code": "Gas", "name": "Gamlestaden" },
+
+  { "code": "Ko", "name": "Kornsjö" },
+  { "code": "Mon", "name": "Mon" },
+  { "code": "Ed", "name": "Ed" },
+  { "code": "Bäf", "name": "Bäckefors" },
+  { "code": "Drt", "name": "Dals Rostock" },
+  { "code": "Rås", "name": "Råskogen" },
+
+  { "code": "Smd", "name": "Strömstad" },
+  { "code": "Ske", "name": "Skee" },
+  { "code": "Övb", "name": "Överby" },
+  { "code": "Kgs", "name": "Kragenäs" },
+  { "code": "Tnu", "name": "Tanum" },
+  { "code": "Rbh", "name": "Rabbalshede" },
+  { "code": "Hlv", "name": "Hällevadsholm" },
+  { "code": "Dl", "name": "Dingle" },
+  { "code": "Mkl", "name": "Munkedal" },
+  { "code": "Uv", "name": "Uddevalla central" },
+  { "code": "Uö", "name": "Uddevalla östra" },
+  { "code": "Ghd", "name": "Grohed" },
+  { "code": "Lj", "name": "Ljungskile" },
+  { "code": "Svg", "name": "Svenshögen" },
+  { "code": "Snu", "name": "Stenungsund" },
+  { "code": "Sth", "name": "Stora Höga" },
+  { "code": "Kde", "name": "Kode" },
+  { "code": "Yb", "name": "Ytterby" },
+  { "code": "Sve", "name": "Säve" },
+
+  { "code": "Fabg", "name": "Falkenberg godsstation" },
+
+  { "code": "Ryr", "name": "Ryr" },
+  { "code": "Vg", "name": "Vänersborg C" },
+  { "code": "Vag", "name": "Vargön" },
+  { "code": "Gop", "name": "Grästorp" },
+  { "code": "Vaa", "name": "Vara" },
+  { "code": "Ved", "name": "Vedum" }
+    { "code": "Al", "name": "Arlöv" },
+    { "code": "Mgb", "name": "Malmö gbg" },
+
+    { "code": "Bg", "name": "Berga" },
+    { "code": "Oh", "name": "Oskarshamn" },
+
+    { "code": "Ea", "name": "Eldsberga" },
+    { "code": "Gnd", "name": "Genevad" },
+    { "code": "Knä", "name": "Knäred" },
+    { "code": "Mrd", "name": "Markaryd" },
+    { "code": "Vsj", "name": "Vittsjö" },
+    { "code": "Bjm", "name": "Bjärnum" },
+    { "code": "Hm", "name": "Hässleholm" },
+
+    { "code": "Em", "name": "Emmaboda" },
+    { "code": "Vfa", "name": "Vissefjärda" },
+    { "code": "Hmö", "name": "Holmsjö" },
+    { "code": "Spj", "name": "Spjutsbygd" },
+    { "code": "Gua", "name": "Gullberna" },
+    { "code": "Båa", "name": "Bergåsa" },
+    { "code": "Ck", "name": "Karlskrona" },
+
+    { "code": "Gmp", "name": "Gamlarp" },
+    { "code": "N", "name": "Nässjö Central" },
+    { "code": "Gt", "name": "Grimstorp" },
+    { "code": "Bdf", "name": "Bodafors" },
+    { "code": "Utp", "name": "Ulvstorp" },
+    { "code": "Sä", "name": "Sävsjö" },
+    { "code": "Ahm", "name": "Aleholm" },
+    { "code": "Sy", "name": "Stockaryd" },
+    { "code": "Rk", "name": "Rörvik" },
+    { "code": "Lh", "name": "Lammhult" },
+    { "code": "Grd", "name": "Grevaryd" },
+    { "code": "Lns", "name": "Lidnäs" },
+    { "code": "Mo", "name": "Moheda" },
+    { "code": "Gåp", "name": "Gåvetorp" },
+    { "code": "Av", "name": "Alvesta" },
+    { "code": "Bld", "name": "Blädinge" },
+    { "code": "Vs", "name": "Vislanda" },
+    { "code": "Era", "name": "Eneryda" },
+    { "code": "Diö", "name": "Diö Norra" },
+    { "code": "Dis", "name": "Diö Södra" },
+    { "code": "Äh", "name": "Älmhult" },
+    { "code": "Kr", "name": "Killeberg" },
+    { "code": "Tun", "name": "Tunneby" },
+    { "code": "O", "name": "Osby" },
+    { "code": "Hv", "name": "Hästveda" },
+    { "code": "Mud", "name": "Mosselund" },
+    { "code": "Bl", "name": "Ballingslöv" },
+    { "code": "Mlb", "name": "Mellby" },
+    { "code": "Söla", "name": "Sösdala" },
+    { "code": "Väd", "name": "Vätteryd" },
+    { "code": "Tö", "name": "Tjörnarp" },
+    { "code": "Hö", "name": "Höör" },
+    { "code": "Sg", "name": "Stehag" },
+    { "code": "E", "name": "Eslöv" },
+    { "code": "Dat", "name": "Dammstorp" },
+    { "code": "Ö", "name": "Örtofta" },
+    { "code": "Stb", "name": "Stångby" },
+    { "code": "Thl", "name": "Tornhill" },
+    { "code": "Lu", "name": "Lund C" },
+    { "code": "Kgå", "name": "Klostergården" },
+    { "code": "Hjp", "name": "Hjärup" },
+    { "code": "Åk", "name": "Åkarp" },
+    { "code": "Blv", "name": "Burlöv" },
+    { "code": "Mc", "name": "Malmö C" },
+    { "code": "Tri", "name": "Triangeln" },
+    { "code": "Hie", "name": "Hyllie" },
+    { "code": "Lnk", "name": "Lernacken" },
+    { "code": "Phm", "name": "Peberholm" },
+
+    { "code": "Hd", "name": "Halmstad C" },
+    { "code": "Hdr", "name": "Halmstad rbg" },
+    { "code": "Kst", "name": "Kistinge" },
+    { "code": "Laov", "name": "Laholm Västra" },
+    { "code": "Bån", "name": "Båstad Norra" },
+    { "code": "Has", "name": "Hallandsås" },
+    { "code": "För", "name": "Förslöv" },
+    { "code": "Vip", "name": "Viarp" },
+    { "code": "Baa", "name": "Barkåkra" },
+    { "code": "Ä", "name": "Ängelholm" },
+    { "code": "Vh", "name": "Vegeholm" },
+    { "code": "Ka", "name": "Kattarp" },
+    { "code": "Öda", "name": "Ödåkra" },
+    { "code": "Mia", "name": "Maria" },
+    { "code": "Pö", "name": "Pålsjö" },
+    { "code": "Hb", "name": "Helsingborg C" },
+    { "code": "Hbgb", "name": "Helsingborg gbg" },
+    { "code": "Ryä", "name": "Rydebäck" },
+    { "code": "Glv", "name": "Glumslöv" },
+    { "code": "Lkö", "name": "Landskrona östra" },
+    { "code": "Häp", "name": "Häljarp" },
+    { "code": "Dös", "name": "Dösjebro" },
+    { "code": "Kg", "name": "Kävlinge" },
+    { "code": "Gnb", "name": "Gunnesbo" },
+
+    { "code": "Gan", "name": "Gantofta" },
+    { "code": "Våk", "name": "Vallåkra" },
+    { "code": "Tgp", "name": "Tågarp" },
+    { "code": "Bib", "name": "Billeberga" },
+    { "code": "Tp", "name": "Teckomatorp" },
+    { "code": "Mar", "name": "Marieholm" },
+
+    { "code": "Fin", "name": "Finja" },
+    { "code": "Ty", "name": "Tyringe" },
+    { "code": "Vto", "name": "Västra Torup" },
+    { "code": "Pt", "name": "Perstorp" },
+    { "code": "Hyl", "name": "Hyllstofta" },
+    { "code": "Kl", "name": "Klippan" },
+    { "code": "Kvi", "name": "Kvidinge" },
+    { "code": "Käb", "name": "Kärreberga" },
+    { "code": "Åp", "name": "Åstorp" },
+    { "code": "Bjuv", "name": "Bjuv" },
+    { "code": "Mör", "name": "Mörarp" },
+    { "code": "Påa", "name": "Påarp" },
+    { "code": "Ätk", "name": "Ättekulla" },
+
+    { "code": "Jö", "name": "Jönköping C" },
+    { "code": "Rkö", "name": "Rocksjön" },
+    { "code": "Jögb", "name": "Jönköping gbg" },
+    { "code": "Hvs", "name": "Hovslätt" },
+    { "code": "Nhr", "name": "Norrahammar" },
+    { "code": "Tag", "name": "Taberg" },
+    { "code": "Måp", "name": "Månsarp" },
+    { "code": "Eky", "name": "Ekeryd" },
+    { "code": "Btg", "name": "Bratteborg" },
+    { "code": "Bym", "name": "Byarum" },
+    { "code": "Vgd", "name": "Vaggeryd" },
+
+    { "code": "Nät", "name": "Nättraby" },
+    { "code": "Rb", "name": "Ronneby" },
+    { "code": "Bhb", "name": "Bräkne-Hoby" },
+    { "code": "Åmn", "name": "Ångsågsmossen" },
+    { "code": "Kh", "name": "Karlshamn" },
+    { "code": "Vru", "name": "Vekerum" },
+    { "code": "Mru", "name": "Mörrum" },
+    { "code": "Sak", "name": "Sandbäck" },
+    { "code": "Sög", "name": "Sölvesborg" },
+    { "code": "Bml", "name": "Bromölla" },
+    { "code": "Fki", "name": "Fjälkinge" },
+    { "code": "Crgb", "name": "Kristianstad gbg" },
+    { "code": "Cr", "name": "Kristianstad C" },
+    { "code": "Kap", "name": "Karpalund" },
+    { "code": "Önd", "name": "Önnestad" },
+    { "code": "Vöv", "name": "Vinslöv" },
+    { "code": "Atp", "name": "Attarp" },
+
+    { "code": "Crs", "name": "Kristianstads södra" },
+    { "code": "Åhus", "name": "Åhus" },
+
+    { "code": "Övn", "name": "Östervärn" },
+    { "code": "Rog", "name": "Rosengård" },
+    { "code": "Mpb", "name": "Malmö Persborg" },
+    { "code": "Fsb", "name": "Fosieby" },
+    { "code": "Stp", "name": "Svågertorp" },
+
+    { "code": "Lrp", "name": "Lockarp" },
+    { "code": "Vid", "name": "Västra Ingelstad" },
+    { "code": "Ög", "name": "Östra Grevie" },
+    { "code": "Svö", "name": "Skytts Vemmerlöv" },
+    { "code": "Trg", "name": "Trelleborg" },
+
+    { "code": "Mss", "name": "Mönsterås" },
+    { "code": "Bma", "name": "Blomstermåla" },
+
+    { "code": "Fdl", "name": "Fredriksdal" },
+    { "code": "Soe", "name": "Stolpen" },
+    { "code": "Mbä", "name": "Malmbäck" },
+    { "code": "Hok", "name": "Hok" },
+    { "code": "Bmo", "name": "Båramo" },
+    { "code": "Syd", "name": "Skillingaryd" },
+    { "code": "Kvh", "name": "Klevshult" },
+    { "code": "Hrl", "name": "Hörle" },
+    { "code": "Väc", "name": "Värnamo central" },
+    { "code": "Fod", "name": "Forsheda" },
+    { "code": "Bdy", "name": "Bredaryd" },
+    { "code": "Rft", "name": "Reftele" },
+    { "code": "Sdr", "name": "Smålandsstenar" },
+    { "code": "Sph", "name": "Skeppshult" },
+    { "code": "Lrd", "name": "Landeryd" },
+    { "code": "Kid", "name": "Kinnared" },
+    { "code": "Bög", "name": "Brännögård" },
+    { "code": "Tou", "name": "Torup" },
+    { "code": "Om", "name": "Oskarström" },
+    { "code": "Sarp", "name": "Sannarp" },
+    { "code": "Fur", "name": "Furet" },
+
+    { "code": "Brin", "name": "Brinellskolan" },
+    { "code": "Ory", "name": "Ormaryd" },
+    { "code": "Ek", "name": "Eksjö" },
+    { "code": "Hul", "name": "Hult" },
+    { "code": "Bz", "name": "Bruzaholm" },
+    { "code": "Hvd", "name": "Hjältevad" },
+    { "code": "Igt", "name": "Ingatorp" },
+    { "code": "Vln", "name": "Vallnäs" },
+    { "code": "Mnd", "name": "Mariannelund" },
+    { "code": "Lön", "name": "Lönneberga" },
+    { "code": "Sic", "name": "Silverdalens Centrum" },
+    { "code": "Sid", "name": "Silverdalens bruk" },
+    { "code": "Hud", "name": "Hulingsryd" },
+    { "code": "Hf", "name": "Hultsfred" },
+
+    { "code": "Snö", "name": "Stensjön" },
+    { "code": "Bjy", "name": "Björköby" },
+    { "code": "Tj", "name": "Tjunnaryd" },
+    { "code": "Esn", "name": "Ekenässjön" },
+    { "code": "Vta", "name": "Vetlanda" },
+
+    { "code": "Rf", "name": "Rimforsa" },
+    { "code": "Kisa", "name": "Kisa" },
+    { "code": "Kpkv", "name": "Korpklev" },
+    { "code": "Vrn", "name": "Verveln" },
+    { "code": "Bök", "name": "Björkhult" },
+    { "code": "Gng", "name": "Gullringen" },
+    { "code": "Svi", "name": "Södra Vi" },
+    { "code": "Alv", "name": "Astrid Lindgrens Värld" },
+    { "code": "Vib", "name": "Vimmerby" },
+    { "code": "Vibh", "name": "Vimmerby Hamra" },
+    { "code": "Sro", "name": "Storebro" },
+    { "code": "Måa", "name": "Målilla" },
+    { "code": "Möa", "name": "Mörlunda" },
+    { "code": "Höy", "name": "Högsby" },
+    { "code": "Rud", "name": "Ruda" },
+    { "code": "Rby", "name": "Rockneby" },
+    { "code": "Kas", "name": "Kalmar S" },
+    { "code": "Kac", "name": "Kalmar C" },
+
+    { "code": "Hyb", "name": "Hyltebruk" },
+
+    { "code": "Bsd", "name": "Brunnsgård" },
+    { "code": "Hbr", "name": "Holsbybrunn" },
+    { "code": "Kvf", "name": "Kvillsfors" },
+
+    { "code": "Röp", "name": "Rörstorp" },
+    { "code": "Bor", "name": "Bor" },
+    { "code": "Rym", "name": "Rydaholm" },
+    { "code": "Gm", "name": "Gemla" },
+    { "code": "Räp", "name": "Räppe" },
+    { "code": "Vö", "name": "Växjö" },
+    { "code": "Ård", "name": "Åryd" },
+    { "code": "Hvp", "name": "Hovmantorp" },
+    { "code": "Lo", "name": "Lessebo" },
+    { "code": "Sru", "name": "Skruv" },
+    { "code": "Örs", "name": "Örsjö" },
+    { "code": "Nyb", "name": "Nybro" },
+    { "code": "Fre", "name": "Fredrikslund" },
+    { "code": "Tre", "name": "Trekanten" },
+    { "code": "Sdy", "name": "Smedby" },
+
+    { "code": "Bih", "name": "Billesholm" },
+    { "code": "Kd", "name": "Kågeröd" },
+    { "code": "Sal", "name": "Svalöv" },
+    { "code": "Fud", "name": "Furulund" },
+    { "code": "Sie", "name": "Stävie" },
+    { "code": "Fl", "name": "Flädie" },
+    { "code": "Lma", "name": "Lomma" },
+
+    { "code": "Hkö", "name": "Hökön" },
+    { "code": "Of", "name": "Olofström" },
+
+    { "code": "Aal", "name": "Annedal" },
+    { "code": "Hlp", "name": "Hasslarp" }
+  ],
+  "korridorer": [
+  {
+    "id": "GBG_almedal_till_varnamo_central",
+    "linjebokId": "GBG",
+    "name": "almedal_till_värnamo-central",
+    "ordning": ["Am","Mdö","Myk","Häy","Hås","Rd","Boy","Rö","Sae","Bsc","Apd","Hil","Lme","Grm","Het","Gnö","Hto","Väc"],
+    "tabellStrackor": [
+      { "name": "Almedal – Borås central", "start": "Am", "end": "Bsc" },
+      { "name": "Borås central – Värnamo central", "start": "Bsc", "end": "Väc" }
+    ]
+  },
+  {
+    "id": "GBG_alvhem_till_lilla_edet",
+    "linjebokId": "GBG",
+    "name": "alvhem_till_lilla_edet",
+    "ordning": ["Alh","Löö","Let"],
+    "tabellStrackor": [
+      { "name": "Alvhem – Lilla Edet", "start": "Alh", "end": "Let" }
+    ]
+  },
+  {
+    "id": "GBG_bengtsfors_till_mellerud",
+    "linjebokId": "GBG",
+    "name": "bengtsfors_till_mellerud",
+    "ordning": ["Bef","Tjs","Bfo","Flgd","Lgb","Dld","Tsl","But","Rån","Hvr","Åb","Skru","Ml"],
+    "tabellStrackor": [
+      { "name": "Bengtsfors – Mellerud", "start": "Bef", "end": "Ml" }
+    ]
+  },
+  {
+    "id": "GBG_falkoping_c_till_nassjo_c",
+    "linjebokId": "GBG",
+    "name": "falköping_c_till_nässjö_c",
+    "ordning": ["F","Vf","Sm","Mu","Ho","Bry","Jö","Hka","Th","Fm","Kröb","Äng","N"],
+    "tabellStrackor": [
+      { "name": "Falköping C – Nässjö C", "start": "F", "end": "N" }
+    ]
+  },
+  {
+    "id": "GBG_gardsjo_till_hakantorp",
+    "linjebokId": "GBG",
+    "name": "gårdsjö_till_håkantorp",
+    "ordning": ["Gdö","Hova","Tvd","Lyd","Hsr","Mst","Lnå","Äsr","Öäg","Fhm","Hlk","Rbk","Trm","Bmb","Kll","Fiä","Lkp","Fc","Lve","Jps","Stlv","Håp"],
+    "tabellStrackor": [
+      { "name": "Gårdsjö – Håkantorp", "start": "Gdö", "end": "Håp" }
+    ]
+  },
+  {
+    "id": "GBG_goteborg_c_till_kistinge",
+    "linjebokId": "GBG",
+    "name": "göteborg_c_till_kistinge",
+    "ordning": ["G","Gro","Lis","Am","Mdn","Krd","Ldo","Ag","Lgd","Khe","Kb","Lek","Åsa","Få","Vrö","Vbgb","Vbc","Haa","Tye","Teo","Fabp","He","Bp","Btp","Fur","Hd","Hdr","Kst"],
+    "tabellStrackor": [
+      { "name": "Göteborg C – Hamra", "start": "G", "end": "Haa" },
+      { "name": "Hamra – Furet", "start": "Haa", "end": "Fur" },
+      { "name": "Furet – Kistinge", "start": "Fur", "end": "Kst" }
+    ]
+  },
+  {
+    "id": "GBG_goteborg_kville_savedalen",
+    "linjebokId": "GBG",
+    "name": "göteborg_kville_sävedalen",
+    "ordning": ["Gk","Or","Gsv","Sär","Sel"],
+    "tabellStrackor": [
+      { "name": "Göteborg Kville – Olskroken", "start": "Gk", "end": "Or" },
+      { "name": "Olskroken – Göteborg Sävenäs", "start": "Or", "end": "Gsv" },
+      { "name": "Sävenäs rbg – Sävedalen", "start": "Sär", "end": "Sel" }
+    ]
+  },
+  {
+    "id": "GBG_goteborg_marieholm_till_goteborg_skandiahamnen",
+    "linjebokId": "GBG",
+    "name": "göteborg_marieholm_till_göteborg-_skandiahamnen",
+    "ordning": ["Gbm","Gk","Gli","Pöb","Gsh"],
+    "tabellStrackor": [
+      { "name": "Göteborg Marieholm – Göteborg Kville", "start": "Gbm", "end": "Gk" },
+      { "name": "Göteborg Kville – Göteborg Skandiahamnen", "start": "Gk", "end": "Gsh" }
+    ]
+  },
+  {
+    "id": "GBG_goteborg_marieholm_till_olskroken",
+    "linjebokId": "GBG",
+    "name": "göteborg_marieholm_till_olskroken",
+    "ordning": ["Gbm","Or"],
+    "tabellStrackor": [
+      { "name": "Göteborg Marieholm – Olskroken", "start": "Gbm", "end": "Or" }
+    ]
+  },
+  {
+    "id": "GBG_herrljunga_central_till_varbergs_central",
+    "linjebokId": "GBG",
+    "name": "herrljunga_central_till_varbergs_central",
+    "ordning": ["Hrc","Lju","Top","Moy","Boa","Fra","Nosk","Knl","Bsc","Vfo","Frl","Kin","Asb","See","Bgm","Bjo","Hre","Jäy","Vdi","Dre","Tof","Vbgb","Vbc"],
+    "tabellStrackor": [
+      { "name": "Herrljunga central – Knalleland", "start": "Hrc", "end": "Knl" },
+      { "name": "Knalleland – Borås central", "start": "Knl", "end": "Bsc" },
+      { "name": "Borås central – Varberg", "start": "Bsc", "end": "Vbc" }
+    ]
+  },
+  {
+    "id": "GBG_jonkoping_c_till_jonkoping_gbg",
+    "linjebokId": "GBG",
+    "name": "jönkoping_c_till_jönkoping_gbg",
+    "ordning": ["Jö","Rkö","Jögb"],
+    "tabellStrackor": [
+      { "name": "Jönköping C – Jönköping gbg", "start": "Jö", "end": "Jögb" }
+    ]
+  },
+  {
+    "id": "GBG_kil_till_goteborg_c",
+    "linjebokId": "GBG",
+    "name": "kil_till_göteborg_c",
+    "ordning": ["Kil","El","Våb","Gms","Sgm","Vdb","Byä","Sfl","Ål","Töe","Ånm","Kpm","Ml","Erk","Skbl","Brl","Fdf","Bjh","Öx","Thn","Veas","Vpm","Tbn","Les","Alh","Än","Nol","Nöe","Bhs","Sue","Agb","Gbm","Gas","Or","G"],
+    "tabellStrackor": [
+      { "name": "Kil – Skälebol", "start": "Kil", "end": "Skbl" },
+      { "name": "Skälebol – Öxnered", "start": "Skbl", "end": "Öx" },
+      { "name": "Öxnered – Göteborg Marieholm", "start": "Öx", "end": "Gbm" },
+      { "name": "Olskroken – Göteborgs central", "start": "Or", "end": "G" }
+    ]
+  },
+  {
+    "id": "GBG_kornsjo_till_skalebol",
+    "linjebokId": "GBG",
+    "name": "kornsjö_till_skälebol",
+    "ordning": ["Ko","Mon","Ed","Bäf","Drt","Rås","Skbl"],
+    "tabellStrackor": [
+      { "name": "Kornsjö – Skälebol", "start": "Ko", "end": "Skbl" }
+    ]
+  },
+  {
+    "id": "GBG_olskroken_gubbero",
+    "linjebokId": "GBG",
+    "name": "olskroken_gubbero",
+    "ordning": ["Or","Gro"],
+    "tabellStrackor": [
+      { "name": "Olskroken – Gubbero", "start": "Or", "end": "Gro" }
+    ]
+  },
+  {
+    "id": "GBG_skovde_c_till_goteborg_c",
+    "linjebokId": "GBG",
+    "name": "skövde_c_till_göteborg_c",
+    "ordning": ["Sk","Rmtp","Ss","Fn","F","Fby","Kä","Hrc","Hrv","Vgå","Agg","A","Bgs","Vbd","Ns","Ndv","Fd","Sn","Lr","Asd","Apn","J","Jv","P","Sel","Gsv","Or","G"],
+    "tabellStrackor": [
+      { "name": "Skövde central – Falköpings norra", "start": "Sk", "end": "Fn" },
+      { "name": "Falköpings central – Herrljunga central", "start": "F", "end": "Hrc" },
+      { "name": "Herrljunga västra – Partille", "start": "Hrv", "end": "P" },
+      { "name": "Partille – Sävedalen", "start": "P", "end": "Sel" },
+      { "name": "Sävedalen – Olskroken", "start": "Sel", "end": "Or" },
+      { "name": "Olskroken – Göteborgs central", "start": "Or", "end": "G" }
+    ]
+  },
+  {
+    "id": "GBG_stromstad_till_goteborg_c",
+    "linjebokId": "GBG",
+    "name": "strömstad_till_göteborg_c",
+    "ordning": ["Smd","Ske","Övb","Kgs","Tnu","Rbh","Hlv","Dl","Mkl","Uv","Uö","Ghd","Lj","Svg","Snu","Sth","Kde","Yb","Sve","Gk","Or","G"],
+    "tabellStrackor": [
+      { "name": "Strömstad – Uddevalla central", "start": "Smd", "end": "Uv" },
+      { "name": "Uddevalla central – Göteborg Kville", "start": "Uv", "end": "Gk" },
+      { "name": "Göteborg Kville – Olskroken", "start": "Gk", "end": "Or" },
+      { "name": "Olskroken – Göteborgs central", "start": "Or", "end": "G" }
+    ]
+  },
+  {
+    "id": "GBG_torebo_till_falkenberg_godsstation",
+    "linjebokId": "GBG",
+    "name": "torebo_till_falkenberg_godsstation",
+    "ordning": ["Teo","Fabg"],
+    "tabellStrackor": [
+      { "name": "Torebo – Falkenberg godsstation", "start": "Teo", "end": "Fabg" }
+    ]
+  },
+  {
+    "id": "GBG_uddevalla_central_till_herrljunga_central",
+    "linjebokId": "GBG",
+    "name": "uddevalla_central_till_herrljunga_central",
+    "ordning": ["Uv","Ryr","Öx","Vg","Vag","Gop","Håp","Vaa","Ved","Hrc"],
+    "tabellStrackor": [
+      { "name": "Uddevalla Central – Öxnered", "start": "Uv", "end": "Öx" },
+      { "name": "Öxnered – Herrljunga central", "start": "Öx", "end": "Hrc" }
+    ]
+  },
+    {
+      "id": "MAL_arlov_till_malmo_gbg",
+      "linjebokId": "MAL",
+      "name": "arlöv_till_malmö_gbg",
+      "ordning": ["Al", "Mgb"],
+      "tabellStrackor": [
+        { "name": "Arlöv – Malmö gbg", "start": "Al", "end": "Mgb" }
+      ]
+    },
+    {
+      "id": "MAL_berga_till_oskarshamn",
+      "linjebokId": "MAL",
+      "name": "berga_till_oskarshamn",
+      "ordning": ["Bg", "Oh"],
+      "tabellStrackor": [
+        { "name": "Berga – Oskarshamn", "start": "Bg", "end": "Oh" }
+      ]
+    },
+    {
+      "id": "MAL_eldsberga_till_hassleholm",
+      "linjebokId": "MAL",
+      "name": "eldsberga_till_hässleholm",
+      "ordning": ["Ea", "Gnd", "Knä", "Mrd", "Vsj", "Bjm", "Hm"],
+      "tabellStrackor": [
+        { "name": "Eldsberga – Hässleholm", "start": "Ea", "end": "Hm" }
+      ]
+    },
+    {
+      "id": "MAL_emmaboda_till_karlskrona",
+      "linjebokId": "MAL",
+      "name": "emmaboda_till_karlskrona",
+      "ordning": ["Em", "Vfa", "Hmö", "Spj", "Gua", "Båa", "Ck"],
+      "tabellStrackor": [
+        { "name": "Emmaboda – Karlskrona C", "start": "Em", "end": "Ck" }
+      ]
+    },
+    {
+      "id": "MAL_gamlarp_till_peberholm",
+      "linjebokId": "MAL",
+      "name": "gamlarp_till_peberholm",
+      "ordning": ["Gmp","N","Gt","Bdf","Utp","Sä","Ahm","Sy","Rk","Lh","Grd","Lns","Mo","Gåp","Av","Bld","Vs","Era","Diö","Dis","Äh","Kr","Tun","O","Hv","Mud","Bl","Hm","Mlb","Söla","Väd","Tö","Hö","Sg","E","Dat","Ö","Stb","Thl","Lu","Kgå","Hjp","Åk","Blv","Al","Mgb","Mc","Tri","Hie","Lnk","Phm"],
+      "tabellStrackor": [
+        { "name": "Gamlarp – Nässjö central", "start": "Gmp", "end": "N" },
+        { "name": "Nässjö central – Malmö gbg", "start": "N", "end": "Mgb" },
+        { "name": "Malmö gbg – Malmö C – Hyllie – Lernacken", "start": "Mgb", "end": "Lnk" },
+        { "name": "Lernacken – Peberholm", "start": "Lnk", "end": "Phm" }
+      ]
+    },
+    {
+      "id": "MAL_halmstad_till_lund",
+      "linjebokId": "MAL",
+      "name": "halmstad_till_lund",
+      "ordning": ["Hd","Hdr","Kst","Ea","Laov","Bån","Has","För","Vip","Baa","Ä","Vh","Ka","Öda","Mia","Pö","Hb","Hbgb","Ryä","Glv","Lkö","Häp","Dös","Kg","Gnb","Lu"],
+      "tabellStrackor": [
+        { "name": "Halmstad C – Ängelholm", "start": "Hd", "end": "Ä" },
+        { "name": "Ängelholm – Helsingborg C – Landskrona Ö – Lund", "start": "Ä", "end": "Lu" }
+      ]
+    },
+    {
+      "id": "MAL_helsingborg_till_eslov",
+      "linjebokId": "MAL",
+      "name": "helsingborg_till_eslöv",
+      "ordning": ["Hb","Hbgb","Gan","Våk","Tgp","Bib","Tp","Mar","E"],
+      "tabellStrackor": [
+        { "name": "Helsingborg C – Helsingborg gbg", "start": "Hb", "end": "Hbgb" },
+        { "name": "Helsingborg gbg – Teckomatorp", "start": "Hbgb", "end": "Tp" },
+        { "name": "Teckomatorp – Eslöv", "start": "Tp", "end": "E" }
+      ]
+    },
+    {
+      "id": "MAL_hassleholm_till_helsingborg",
+      "linjebokId": "MAL",
+      "name": "hässleholm_till_helsingborg",
+      "ordning": ["Hm","Fin","Ty","Vto","Pt","Hyl","Kl","Kvi","Käb","Åp","Bjuv","Mör","Påa","Ätk","Hbgb","Hb"],
+      "tabellStrackor": [
+        { "name": "Hässleholm – Bjuv – Helsingborg gbg – Helsingborg C", "start": "Hm", "end": "Hb" },
+        { "name": "Hässleholm – Åstorp – Kattarp/Helsingborg gbg", "start": "Hm", "end": "Hbgb" }
+      ]
+    },
+    {
+      "id": "MAL_jonkoping_till_vaggeryd",
+      "linjebokId": "MAL",
+      "name": "jönköping_till_vaggeryd",
+      "ordning": ["Jö","Rkö","Jögb","Hvs","Nhr","Tag","Måp","Eky","Btg","Bym","Vgd"],
+      "tabellStrackor": [
+        { "name": "Jönköping C – Vaggeryd", "start": "Jö", "end": "Vgd" }
+      ]
+    },
+    {
+      "id": "MAL_karlskrona_c_till_hassleholm",
+      "linjebokId": "MAL",
+      "name": "karlskrona_c_till_hässleholm",
+      "ordning": ["Ck","Båa","Gua","Nät","Rb","Bhb","Åmn","Kh","Vru","Mru","Sak","Sög","Bml","Fki","Crgb","Cr","Kap","Önd","Vöv","Atp","Hm"],
+      "tabellStrackor": [
+        { "name": "Karlskrona C – Kristianstad (Ck–Cr)", "start": "Ck", "end": "Cr" },
+        { "name": "Kristianstad – Hässleholm (Cr–Hm)", "start": "Cr", "end": "Hm" }
+      ]
+    },
+    {
+      "id": "MAL_kristianstad_till_ahus",
+      "linjebokId": "MAL",
+      "name": "kristianstad_till_åhus",
+      "ordning": ["Cr","Crs","Åhus"],
+      "tabellStrackor": [
+        { "name": "Kristianstad C – Åhus", "start": "Cr", "end": "Åhus" }
+      ]
+    },
+    {
+      "id": "MAL_malmo_gbg_till_peberholm_via_fosieby",
+      "linjebokId": "MAL",
+      "name": "malmö_gbg_till_peberholm_via_fosieby",
+      "ordning": ["Mgb","Övn","Rog","Mpb","Fsb","Stp","Lnk","Phm"],
+      "tabellStrackor": [
+        { "name": "Malmö gbg – Lernacken", "start": "Mgb", "end": "Lnk" },
+        { "name": "Lernacken – Peberholm", "start": "Lnk", "end": "Phm" }
+      ]
+    },
+    {
+      "id": "MAL_malmo_gbg_till_trelleborg",
+      "linjebokId": "MAL",
+      "name": "malmö_gbg_till_trelleborg",
+      "ordning": ["Mgb","Övn","Rog","Mpb","Fsb","Lrp","Vid","Ög","Svö","Trg"],
+      "tabellStrackor": [
+        { "name": "Malmö gbg – Fosieby", "start": "Mgb", "end": "Fsb" },
+        { "name": "Fosieby – Trelleborg", "start": "Fsb", "end": "Trg" }
+      ]
+    },
+    {
+      "id": "MAL_monsteras_till_blomstermala",
+      "linjebokId": "MAL",
+      "name": "mönsterås_till_blomstermåla",
+      "ordning": ["Mss","Bma"],
+      "tabellStrackor": [
+        { "name": "Mönsterås – Blomstermåla", "start": "Mss", "end": "Bma" }
+      ]
+    },
+    {
+      "id": "MAL_nassjo_till_halmstad",
+      "linjebokId": "MAL",
+      "name": "nässjo_till_halmstad",
+      "ordning": ["N","Fdl","Soe","Mbä","Hok","Vgd","Bmo","Syd","Kvh","Hrl","Väc","Fod","Bdy","Rft","Sdr","Sph","Lrd","Kid","Bög","Tou","Om","Sarp","Fur","Hd","Hdr"],
+      "tabellStrackor": [
+        { "name": "Nässjö C – Värnamo central", "start": "N", "end": "Väc" },
+        { "name": "Värnamo central – Furet", "start": "Väc", "end": "Fur" },
+        { "name": "Furet – Halmstad rbg", "start": "Fur", "end": "Hdr" }
+      ]
+    },
+    {
+      "id": "MAL_nassjo_till_hultsfred",
+      "linjebokId": "MAL",
+      "name": "nässjö_till_hultsfred",
+      "ordning": ["N","Brin","Ory","Ek","Hul","Bz","Hvd","Igt","Vln","Mnd","Lön","Sic","Sid","Hud","Hf"],
+      "tabellStrackor": [
+        { "name": "Nässjö C – Eksjö", "start": "N", "end": "Ek" },
+        { "name": "Eksjö – Hultsfred", "start": "Ek", "end": "Hf" }
+      ]
+    },
+    {
+      "id": "MAL_nassjo_till_vetlanda",
+      "linjebokId": "MAL",
+      "name": "nässjö_till_vetlanda",
+      "ordning": ["N","Snö","Bjy","Tj","Esn","Vta"],
+      "tabellStrackor": [
+        { "name": "Nässjö C – Vetlanda", "start": "N", "end": "Vta" }
+      ]
+    },
+    {
+      "id": "MAL_rimforsa_till_kalmar_c",
+      "linjebokId": "MAL",
+      "name": "rimforsa_till_kalmar_c",
+      "ordning": ["Rf","Kisa","Kpkv","Vrn","Bök","Gng","Svi","Alv","Vib","Vibh","Sro","Hf","Måa","Möa","Bg","Höy","Rud","Bma","Rby","Kas","Kac"],
+      "tabellStrackor": [
+        { "name": "Rimforsa – Hultsfred", "start": "Rf", "end": "Hf" },
+        { "name": "Hultsfred – Kalmar C", "start": "Hf", "end": "Kac" },
+        { "name": "Berga – Kalmar S", "start": "Bg", "end": "Kas" },
+        { "name": "Kalmar S – Kalmar C", "start": "Kas", "end": "Kac" }
+      ]
+    },
+    {
+      "id": "MAL_torup_till_hyltebruk",
+      "linjebokId": "MAL",
+      "name": "torup_till-hyltebruk",
+      "ordning": ["Tou","Hyb"],
+      "tabellStrackor": [
+        { "name": "Torup – Hyltebruk", "start": "Tou", "end": "Hyb" }
+      ]
+    },
+    {
+      "id": "MAL_vetlanda_till_kvillsfors",
+      "linjebokId": "MAL",
+      "name": "vetlanda_till_kvillsfors",
+      "ordning": ["Vta","Bsd","Hbr","Kvf"],
+      "tabellStrackor": [
+        { "name": "Vetlanda – Kvillsfors", "start": "Vta", "end": "Kvf" }
+      ]
+    },
+    {
+      "id": "MAL_varnamo_c_till_kalmar_c",
+      "linjebokId": "MAL",
+      "name": "värnamo-c_till_kalmar-c",
+      "ordning": ["Väc","Röp","Bor","Rym","Av","Gm","Räp","Vö","Ård","Hvp","Lo","Sru","Em","Örs","Nyb","Fre","Tre","Sdy","Kas","Kac"],
+      "tabellStrackor": [
+        { "name": "Värnamo central – Alvesta", "start": "Väc", "end": "Av" },
+        { "name": "Alvesta – Räppe", "start": "Av", "end": "Räp" },
+        { "name": "Räppe – Växjö", "start": "Räp", "end": "Vö" },
+        { "name": "Växjö – Emmaboda", "start": "Vö", "end": "Em" },
+        { "name": "Emmaboda – Nybro", "start": "Em", "end": "Nyb" },
+        { "name": "Nybro – Fredrikslund", "start": "Nyb", "end": "Fre" },
+        { "name": "Fredrikslund – Kalmar södra", "start": "Fre", "end": "Kas" },
+        { "name": "Kalmar södra – Kalmar central", "start": "Kas", "end": "Kac" }
+      ]
+    },
+    {
+      "id": "MAL_angelholm_till_arlov",
+      "linjebokId": "MAL",
+      "name": "Ängelholm_till_arlöv",
+      "ordning": ["Ä","Åp","Bih","Kd","Sal","Tp","Kg","Fud","Sie","Fl","Lma","Al"],
+      "tabellStrackor": [
+        { "name": "Ängelholm – Åstorp", "start": "Ä", "end": "Åp" },
+        { "name": "Åstorp – Teckomatorp", "start": "Åp", "end": "Tp" },
+        { "name": "Teckomatorp – Stävie", "start": "Tp", "end": "Sie" },
+        { "name": "Stävie – Lomma", "start": "Sie", "end": "Lma" },
+        { "name": "Lomma – Arlöv", "start": "Lma", "end": "Al" }
+      ]
+    },
+    {
+      "id": "MAL_almhult_till_olofstrom",
+      "linjebokId": "MAL",
+      "name": "älmhult_till_olofstrom",
+      "ordning": ["Äh","Hkö","Of"],
+      "tabellStrackor": [
+        { "name": "Älmhult – Olofström", "start": "Äh", "end": "Of" }
+      ]
+    },
+    {
+      "id": "MAL_astorp_till_kattarp",
+      "linjebokId": "MAL",
+      "name": "åstorp_till_kattarp",
+      "ordning": ["Åp","Aal","Hlp","Ka"],
+      "tabellStrackor": [
+        { "name": "Åstorp – Kattarp", "start": "Åp", "end": "Ka" }
+      ]
+    }
+  ]
+}
