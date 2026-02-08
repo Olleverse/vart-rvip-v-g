@@ -1,5 +1,6 @@
 {
   "driftplatser": [
+    { "code": "Nta", "name": "Nacksta" },
     { "code": "Bia", "name": "Birsta" },
     { "code": "Fil", "name": "Fillan" },
     { "code": "Gim", "name": "Gimonäs" },
