@@ -6,9 +6,123 @@
     { "id": "BDN", "name": "Boden" },
     { "id": "GAV", "name": "Gävle" },
     { "id": "HAL", "name": "Hallsberg" },
-    { "id": "NRK", "name": "Norrköping" }
+    { "id": "NRK", "name": "Norrköping" },
+    { "id": "STH", "name": "Stockholm" }
   ],
   "driftplatser": [
+    { "code": "Arnn", "name": "Arlanda norra" },
+{ "code": "Arns", "name": "Arlanda södra" },
+{ "code": "Arne", "name": "Arlanda nedre" },
+{ "code": "Bvr", "name": "Blackvreten" },
+{ "code": "Skby", "name": "Skavstaby" },
+{ "code": "Arnc", "name": "Arlanda central" },
+
+{ "code": "Ry", "name": "Rosshyttan" },
+{ "code": "Bdo", "name": "Broddbo" },
+{ "code": "Ist", "name": "Isätra" },
+{ "code": "Hy", "name": "Heby" },
+{ "code": "Må", "name": "Morgongåva" },
+{ "code": "Jla", "name": "Järlåsa" },
+{ "code": "Bna", "name": "Brunna" },
+{ "code": "Una", "name": "Uppsala norra" },
+{ "code": "Säy", "name": "Säby" },
+{ "code": "Eby", "name": "Ekeby" },
+{ "code": "Kn", "name": "Knivsta" },
+{ "code": "Myn", "name": "Myrbacken" },
+{ "code": "Mr", "name": "Märsta" },
+{ "code": "Bra", "name": "Brista" },
+{ "code": "Rs", "name": "Rosersberg" },
+{ "code": "Upv", "name": "Upplands Väsby" },
+{ "code": "R", "name": "Rotebro" },
+{ "code": "Nvk", "name": "Norrviken" },
+{ "code": "Hgv", "name": "Häggvik" },
+{ "code": "Sol", "name": "Sollentuna" },
+{ "code": "Hel", "name": "Helenelund" },
+{ "code": "Udl", "name": "Ulriksdal" },
+{ "code": "So", "name": "Solna" },
+{ "code": "Tmö", "name": "Tomteboda övre" },
+{ "code": "Ke", "name": "Karlberg" },
+{ "code": "Nbt", "name": "Norra Bantorget" },
+{ "code": "Cst", "name": "Stockholms central" },
+
+{ "code": "Flb", "name": "Flemingsberg" },
+{ "code": "Tul", "name": "Tullinge" },
+{ "code": "Uts", "name": "Utsikten" },
+{ "code": "Tu", "name": "Tumba" },
+{ "code": "Södy", "name": "Söderby" },
+{ "code": "Gau", "name": "Garnudden" },
+{ "code": "Rön", "name": "Rönninge" },
+{ "code": "Dån", "name": "Dånviken" },
+{ "code": "Öte", "name": "Östertälje" },
+{ "code": "Söd", "name": "Södertälje hamn" },
+{ "code": "Söu", "name": "Södertälje syd undre" },
+
+{ "code": "Sst", "name": "Stockholms södra" },
+{ "code": "Åbe", "name": "Årstaberg" },
+{ "code": "Äs", "name": "Älvsjö" },
+{ "code": "Sta", "name": "Stuvsta" },
+{ "code": "Hu", "name": "Huddinge" },
+{ "code": "Bjn", "name": "Björnkulla" },
+{ "code": "Msj", "name": "Malmsjö" },
+{ "code": "Mö", "name": "Mölnbo" },
+{ "code": "Gn", "name": "Gnesta" },
+{ "code": "Koe", "name": "Kolke" },
+{ "code": "B", "name": "Björnlunda" },
+{ "code": "Sh", "name": "Stjärnhov" },
+{ "code": "Nsj", "name": "Nyckelsjön" },
+{ "code": "Sp", "name": "Sparreholm" },
+{ "code": "Skv", "name": "Skebokvarn" },
+{ "code": "Sde", "name": "Sköldinge" },
+{ "code": "Spn", "name": "Stolpstugan" },
+
+{ "code": "Nst", "name": "Stockholms norra" },
+
+{ "code": "Söc", "name": "Södertälje centrum" },
+{ "code": "Bre", "name": "Bränninge" },
+
+{ "code": "Sod", "name": "Stockholm Odenplan" },
+{ "code": "Sci", "name": "Stockholm City" },
+
+{ "code": "Ghu", "name": "Gula huset" },
+{ "code": "Tm", "name": "Tomteboda bangård" },
+
+{ "code": "Ttu", "name": "Tortuna" },
+{ "code": "Lub", "name": "Lundby" },
+{ "code": "Ep", "name": "Enköping" },
+{ "code": "Gib", "name": "Grillby" },
+{ "code": "Eko", "name": "Ekolsund" },
+{ "code": "Bål", "name": "Bålsta" },
+{ "code": "Tot", "name": "Toresta" },
+{ "code": "Bro", "name": "Bro" },
+{ "code": "Brny", "name": "Bro Nygård" },
+{ "code": "Kän", "name": "Kungsängen" },
+{ "code": "Khä", "name": "Kallhäll" },
+{ "code": "Jkb", "name": "Jakobsberg" },
+{ "code": "Bkb", "name": "Barkarby" },
+{ "code": "Spå", "name": "Spånga" },
+{ "code": "Duo", "name": "Duvbo" },
+{ "code": "Sub", "name": "Sundbyberg" },
+{ "code": "Huv", "name": "Huvudsta" },
+
+{ "code": "Hön", "name": "Högdalen" },
+{ "code": "Fas", "name": "Farsta strand" },
+{ "code": "Tåd", "name": "Trångsund" },
+{ "code": "Skg", "name": "Skogås" },
+{ "code": "Vga", "name": "Vega" },
+{ "code": "Hnd", "name": "Handen" },
+{ "code": "Jbo", "name": "Jordbro" },
+{ "code": "Vhe", "name": "Västerhaninge" },
+{ "code": "Kda", "name": "Krigslida" },
+{ "code": "Ts", "name": "Tungelsta" },
+{ "code": "Hfa", "name": "Hemfosa" },
+{ "code": "Ssä", "name": "Segersäng" },
+{ "code": "Öso", "name": "Ösmo" },
+{ "code": "Kng", "name": "Kvarnängen" },
+{ "code": "Ngd", "name": "Nynäsgård" },
+{ "code": "Gdv", "name": "Gröndalsviken" },
+{ "code": "Nyc", "name": "Nynäshamns centrum" },
+
+{ "code": "Äsg", "name": "Älvsjö godsbangård" },
     { "code": "Bsä", "name": "Bjärka Säby" },
 { "code": "Mmg", "name": "Mormorsgruvan" },
 { "code": "Vsö", "name": "Viresjö" },
@@ -979,6 +1093,162 @@
 
   ],
   "korridorer": [
+    {
+  "id": "STH_arlanda_norra_till_skavstaby",
+  "linjebokId": "STH",
+  "name": "arlanda_norra_till_skavstaby",
+  "ordning": ["Arnn","Arns","Arne","Bvr","Skby"],
+  "tabellStrackor": [
+    { "name": "Arlanda norra – Skavstaby", "start": "Arnn", "end": "Skby" },
+    { "name": "Blackvreten – Skavstaby", "start": "Bvr", "end": "Skby" }
+  ]
+},
+{
+  "id": "STH_avesta_krylbo_till_stockholms_central",
+  "linjebokId": "STH",
+  "name": "avesta_krylbo_till_stockholms_central",
+  "ordning": ["Avky","Ry","Bdo","Sl","Ist","Hy","Må","Jla","Bna","Una","U","Säy","Eby","Kn","Myn","Mr","Bra","Rs","Skby","Upv","R","Nvk","Hgv","Sol","Hel","Udl","So","Tmö","Ke","Nbt","Cst"],
+  "tabellStrackor": [
+    { "name": "Avesta Krylbo – Stockholms central", "start": "Avky", "end": "Cst" },
+    { "name": "Avesta Krylbo – Sala", "start": "Avky", "end": "Sl" },
+    { "name": "Sala – Uppsala norra", "start": "Sl", "end": "Una" },
+    { "name": "Uppsala norra – Uppsala central", "start": "Una", "end": "U" },
+    { "name": "Uppsala central – Myrbacken", "start": "U", "end": "Myn" },
+    { "name": "Myrbacken – Märsta", "start": "Myn", "end": "Mr" },
+    { "name": "Myrbacken – Arlanda central", "start": "Myn", "end": "Arnc" },
+    { "name": "Myrbacken – Brista via Märsta", "start": "Myn", "end": "Bra" },
+    { "name": "Brista – Rosersberg", "start": "Bra", "end": "Rs" },
+    { "name": "Rosersberg – Skavstaby", "start": "Rs", "end": "Skby" },
+    { "name": "Skavstaby – Häggvik", "start": "Skby", "end": "Hgv" },
+    { "name": "Häggvik – Helenelund", "start": "Hgv", "end": "Hel" },
+    { "name": "Ulriksdal – Stockholms central", "start": "Udl", "end": "Cst" }
+  ]
+},
+{
+  "id": "STH_flemingsberg_till_sodertalje_syd_ovre_via_sodertalje_hamn",
+  "linjebokId": "STH",
+  "name": "flemingsberg_till_södertälje_syd_övre_via_södertälje_hamn",
+  "ordning": ["Flb","Tul","Uts","Tu","Södy","Gau","Rön","Dån","Öte","Söd","Söu","Söö"],
+  "tabellStrackor": [
+    { "name": "Flemingsberg – Östertälje", "start": "Flb", "end": "Öte" },
+    { "name": "Södertälje hamn – Södertälje syd övre", "start": "Söd", "end": "Söö" },
+    { "name": "Södertälje syd undre – Södertälje syd övre", "start": "Söu", "end": "Söö" }
+  ]
+},
+{
+  "id": "STH_myrbacken_till_skavstaby_via_arlanda_central",
+  "linjebokId": "STH",
+  "name": "myrbacken_till_skavstaby_via_arlanda_central",
+  "ordning": ["Myn","Arnc","Arne","Bvr","Skby"],
+  "tabellStrackor": [
+    { "name": "Myrbacken – Arlanda central", "start": "Myn", "end": "Arnc" },
+    { "name": "Arlanda central – Blackvreten", "start": "Arnc", "end": "Bvr" },
+    { "name": "Blackvreten – Skavstaby", "start": "Bvr", "end": "Skby" }
+  ]
+},
+{
+  "id": "STH_stockholms_central_till_katrineholms_central",
+  "linjebokId": "STH",
+  "name": "stockholms_central_till_katrineholms_central",
+  "ordning": ["Cst","Sst","Åbe","Äs","Sta","Hu","Flb","Bjn","Uts","Msj","Söö","Jn","Mö","Gn","Koe","B","Sh","Nsj","Sp","Skv","Fle","Sde","Spn","K"],
+  "tabellStrackor": [
+    { "name": "Stockholms central – Älvsjö", "start": "Cst", "end": "Äs" },
+    { "name": "Älvsjö – Huddinge", "start": "Äs", "end": "Hu" },
+    { "name": "Huddinge – Flemingsberg", "start": "Hu", "end": "Flb" },
+    { "name": "Flemingsberg – Södertälje syd övre", "start": "Flb", "end": "Söö" },
+    { "name": "Södertälje syd övre – Järna", "start": "Söö", "end": "Jn" },
+    { "name": "Järna – Katrineholm", "start": "Jn", "end": "K" }
+  ]
+},
+{
+  "id": "STH_stockholms_norra_till_karlberg",
+  "linjebokId": "STH",
+  "name": "stockholms_norra_till_karlberg",
+  "ordning": ["Nst","Ke"],
+  "tabellStrackor": [
+    { "name": "Stockholms norra – Karlberg", "start": "Nst", "end": "Ke" }
+  ]
+},
+{
+  "id": "STH_sodertalje_centrum_till_jarna",
+  "linjebokId": "STH",
+  "name": "södertälje_centrum_till_järna",
+  "ordning": ["Söc","Söd","Söu","Bre","Jn"],
+  "tabellStrackor": [
+    { "name": "Södertälje centrum – Södertälje hamn", "start": "Söc", "end": "Söd" },
+    { "name": "Södertälje syd undre – Bränninge", "start": "Söu", "end": "Bre" },
+    { "name": "Södertälje syd undre – Södertälje syd övre", "start": "Söu", "end": "Söö" },
+    { "name": "Södertälje syd undre – Järna", "start": "Söu", "end": "Jn" },
+    { "name": "Järna – Mölnbo", "start": "Jn", "end": "Mö" },
+    { "name": "Järna – Hölö", "start": "Jn", "end": "Hlö" }
+  ]
+},
+{
+  "id": "STH_tomteboda_ovre_till_stockholms_sodra_via_stockholm_city",
+  "linjebokId": "STH",
+  "name": "tomteboda_övre_till_stockholms_södra_via_stockholm_city",
+  "ordning": ["Tmö","Sod","Sci","Sst"],
+  "tabellStrackor": [
+    { "name": "Tomteboda övre – Stockholm Odenplan", "start": "Tmö", "end": "Sod" },
+    { "name": "Stockholm Odenplan – Stockholm City", "start": "Sod", "end": "Sci" },
+    { "name": "Stockholm City – Stockholms södra", "start": "Sci", "end": "Sst" }
+  ]
+},
+{
+  "id": "STH_ulriksdal_till_stockholms_central",
+  "linjebokId": "STH",
+  "name": "ulriksdal_till_stockholms_central",
+  "ordning": ["Udl","Ghu","So","Tmö","Ke","Tm","Nbt","Cst"],
+  "tabellStrackor": [
+    { "name": "Ulriksdal – Stockholms central", "start": "Udl", "end": "Cst" },
+    { "name": "Ulriksdal – Tomteboda övre", "start": "Udl", "end": "Tmö" },
+    { "name": "Tomteboda bangård – Stockholms central", "start": "Tm", "end": "Cst" }
+  ]
+},
+{
+  "id": "STH_vartan_till_huvudsta",
+  "linjebokId": "STH",
+  "name": "värtan_till_huvudsta",
+  "ordning": ["Vn","Nst","Tm","Huv"],
+  "tabellStrackor": [
+    { "name": "Värtan – Stockholms norra – Tomteboda bangård", "start": "Vn", "end": "Tm" },
+    { "name": "Tomteboda bangård – Huvudsta", "start": "Tm", "end": "Huv" }
+  ]
+},
+{
+  "id": "STH_vasteras_norra_till_stockholms_central",
+  "linjebokId": "STH",
+  "name": "västerås_norra_till_stockholms_central",
+  "ordning": ["Vån","Ttu","Lub","Ep","Gib","Eko","Bål","Tot","Bro","Brny","Kän","Khä","Jkb","Bkb","Spå","Duo","Sub","Huv","Tmö","Ke","Nbt","Cst"],
+  "tabellStrackor": [
+    { "name": "Västerås norra – Enköping", "start": "Vån", "end": "Ep" },
+    { "name": "Enköping – Bro Nygård", "start": "Ep", "end": "Brny" },
+    { "name": "Bro Nygård – Kallhäll", "start": "Brny", "end": "Khä" },
+    { "name": "Kallhäll – Spånga", "start": "Khä", "end": "Spå" },
+    { "name": "Spånga – Sundbyberg", "start": "Spå", "end": "Sub" },
+    { "name": "Sundbyberg – Stockholms central", "start": "Sub", "end": "Cst" }
+  ]
+},
+{
+  "id": "STH_alvsjo_till_nynashamns_centrum",
+  "linjebokId": "STH",
+  "name": "älvsjö_till_nynäshamns_centrum",
+  "ordning": ["Äs","Hön","Fas","Tåd","Skg","Vga","Hnd","Jbo","Vhe","Kda","Ts","Hfa","Ssä","Öso","Kng","Ngd","Gdv","Nyc"],
+  "tabellStrackor": [
+    { "name": "Älvsjö – Hemfosa", "start": "Äs", "end": "Hfa" },
+    { "name": "Hemfosa – Kvarnängen", "start": "Hfa", "end": "Kng" },
+    { "name": "Kvarnängen – Nynäshamns centrum", "start": "Kng", "end": "Nyc" }
+  ]
+},
+{
+  "id": "STH_arstaberg_till_alvsjo_via_alvsjo_gods",
+  "linjebokId": "STH",
+  "name": "årstaberg_till_älvsjö_via_älvsjö_godsbangard",
+  "ordning": ["Åbe","Äsg","Äs","Sta"],
+  "tabellStrackor": [
+    { "name": "Årstaberg – Älvsjö via Älvsjö godsbangård", "start": "Åbe", "end": "Äs" }
+  ]
+},
     {
   "id": "NRK_bjarka_saby_till_vastervik",
   "linjebokId": "NRK",
