@@ -2,7 +2,9 @@
   "adminPin": "6431",
   "linjebocker": [
     { "id": "MAL", "name": "Malmö" },
-    { "id": "GBG", "name": "Göteborg" }
+    { "id": "GBG", "name": "Göteborg" },
+    { "id": "BDN", "name": "Boden" }
+
   ],
   "driftplatser": [
     { "code": "A", "name": "Alingsås" },
@@ -107,9 +109,9 @@
     { "code": "Få", "name": "Frillesås" },
     { "code": "Gan", "name": "Gantofta" },
     { "code": "Gas", "name": "Gamlestaden" },
+    { "code": "G", "name": "Göteborgs central" },
     { "code": "Gbm", "name": "Göteborg Marieholm" },
     { "code": "Ghd", "name": "Grohed" },
-    { "code": "G", "name": "Göteborgs central" },
     { "code": "Gk", "name": "Göteborg Kville" },
     { "code": "Gli", "name": "Göteborg Lindholmen" },
     { "code": "Gmp", "name": "Gamlarp" },
@@ -392,7 +394,146 @@
     { "code": "Kä", "name": "Källeryd" },
     { "code": "Hrc", "name": "Herrljunga central" },
     { "code": "Hrv", "name": "Herrljunga västra" },
-    { "code": "Vgå", "name": "Vårgårda" }
+    { "code": "Vgå", "name": "Vårgårda" },
+    { "code": "Aik", "name": "Aitik" },
+{ "code": "Kaa", "name": "Koijuvaara" },
+
+{ "code": "Bst", "name": "Bastuträsk" },
+{ "code": "Ffs", "name": "Finnforsfallet" },
+{ "code": "Skl", "name": "Skellefteå" },
+{ "code": "Hsb", "name": "Hedensbyn" },
+{ "code": "Gse", "name": "Gunsen" },
+{ "code": "Uvn", "name": "Ursviken" },
+{ "code": "Söv", "name": "Skelleftehamns övre" },
+
+{ "code": "Bjf", "name": "Bjørnfjell" },
+{ "code": "Rgn", "name": "Riksgränsen" },
+{ "code": "Kjå", "name": "Katterjåkk" },
+{ "code": "Vj", "name": "Vassijaure" },
+{ "code": "Låk", "name": "Låktatjåkka" },
+{ "code": "Kå", "name": "Kopparåsen" },
+{ "code": "Bln", "name": "Björkliden" },
+{ "code": "Akt", "name": "Abisko turiststation" },
+{ "code": "Ak", "name": "Abisko östra" },
+{ "code": "Soa", "name": "Stordalen" },
+{ "code": "Kpe", "name": "Kaisepakte" },
+{ "code": "Sbk", "name": "Stenbacken" },
+{ "code": "Tnk", "name": "Torneträsk" },
+{ "code": "Bfs", "name": "Bergfors" },
+{ "code": "Rsn", "name": "Rensjön" },
+{ "code": "Rut", "name": "Rautas" },
+{ "code": "Kv", "name": "Krokvik" },
+{ "code": "Pea", "name": "Peuravaara" },
+{ "code": "Kia", "name": "Kirunavaara" },
+{ "code": "Rsi", "name": "Råtsi" },
+{ "code": "Kx", "name": "Kalixfors" },
+{ "code": "Gy", "name": "Gäddmyr" },
+{ "code": "Sjka", "name": "Sjisjka" },
+{ "code": "Lab", "name": "Lappberg" },
+{ "code": "Ktm", "name": "Kaitum" },
+{ "code": "Fjå", "name": "Fjällåsen" },
+{ "code": "Har", "name": "Harrå" },
+{ "code": "Håk", "name": "Håmojåkk" },
+{ "code": "Lin", "name": "Linaälv" },
+{ "code": "Stk", "name": "Sikträsk" },
+{ "code": "Gvc", "name": "Gällivare central" },
+{ "code": "Hrt", "name": "Harrträsk" },
+{ "code": "Rps", "name": "Ripats" },
+{ "code": "Nrt", "name": "Nuortikon" },
+{ "code": "Klv", "name": "Kilvo" },
+{ "code": "Ntv", "name": "Nattavaara" },
+{ "code": "Kva", "name": "Koskivaara" },
+{ "code": "Pc", "name": "Polcirkeln" },
+{ "code": "Mk", "name": "Murjek" },
+{ "code": "Tet", "name": "Tolikberget" },
+{ "code": "Nb", "name": "Näsberg" },
+{ "code": "Lkä", "name": "Lakaträsk" },
+{ "code": "Glt", "name": "Gullträsk" },
+{ "code": "Stä", "name": "Sandträsk" },
+{ "code": "Grs", "name": "Gransjö" },
+{ "code": "Lså", "name": "Ljuså" },
+{ "code": "Hfs", "name": "Holmfors" },
+{ "code": "Bud", "name": "Buddbyn" },
+{ "code": "Bdn", "name": "Bodens central" },
+{ "code": "Svb", "name": "Södra Svartbyn" },
+{ "code": "Sän", "name": "Sävastklinten" },
+{ "code": "Svt", "name": "Sävast" },
+{ "code": "Sby", "name": "Norra Sunderbyn" },
+{ "code": "Sus", "name": "Sunderbyns sjukhus" },
+{ "code": "Gst", "name": "Gammelstad" },
+{ "code": "Nvn", "name": "Notviken" },
+{ "code": "Le", "name": "Luleå" },
+
+{ "code": "Bds", "name": "Bodens södra" },
+{ "code": "Ht", "name": "Hednoret" },
+{ "code": "Dbn", "name": "Degerbäcken" },
+{ "code": "Brg", "name": "Brännberg" },
+{ "code": "Lrg", "name": "Laduberg" },
+{ "code": "Äy", "name": "Älvsbyn" },
+{ "code": "Nyf", "name": "Nyfors" },
+{ "code": "Ktä", "name": "Korsträsk" },
+{ "code": "Jnt", "name": "Järneträsk" },
+{ "code": "Sts", "name": "Storsund" },
+{ "code": "Klr", "name": "Koler" },
+{ "code": "Sbi", "name": "Storblåliden" },
+{ "code": "Ltk", "name": "Långträsk" },
+{ "code": "Mhn", "name": "Myrheden" },
+{ "code": "Thm", "name": "Träskholm" },
+{ "code": "Sto", "name": "Storträsk" },
+{ "code": "Jrn", "name": "Jörn" },
+{ "code": "Ldl", "name": "Lidlund" },
+{ "code": "Krb", "name": "Karsbäcken" },
+{ "code": "Kaä", "name": "Kattisträsk" },
+{ "code": "Åst", "name": "Åsträsk" },
+{ "code": "Luä", "name": "Lubboträsk" },
+{ "code": "Etk", "name": "Ekträsk" },
+{ "code": "Yö", "name": "Yttersjön" },
+{ "code": "Hls", "name": "Hällnäs" },
+{ "code": "Vdn", "name": "Vindeln" },
+{ "code": "Tvä", "name": "Tvärålund" },
+{ "code": "Tvb", "name": "Tväråbäck" },
+{ "code": "Vän", "name": "Vännäs norra" },
+{ "code": "Vns", "name": "Vännäs" },
+
+{ "code": "Hp", "name": "Haparanda södra" },
+{ "code": "Kei", "name": "Keräsjoki" },
+{ "code": "Vsk", "name": "Vuonoskogen" },
+{ "code": "Set", "name": "Stensundberget" },
+{ "code": "Ben", "name": "Bredviken" },
+{ "code": "Klx", "name": "Kalix östra" },
+{ "code": "Klxv", "name": "Kalix västra" },
+{ "code": "Ran", "name": "Rian" },
+{ "code": "Koj", "name": "Kosjärv" },
+{ "code": "Bet", "name": "Bruksberget" },
+{ "code": "Mjv", "name": "Morjärv" },
+{ "code": "Sbä", "name": "Sågbäcken" },
+{ "code": "Gen", "name": "Gåsträsken" },
+{ "code": "Brå", "name": "Bjurå" },
+{ "code": "Nml", "name": "Niemisel" },
+{ "code": "Huö", "name": "Hundsjön" },
+
+{ "code": "Kos", "name": "Koskullskulle" },
+
+{ "code": "Amk", "name": "Arnemark" },
+{ "code": "Ptå", "name": "Piteå" },
+
+{ "code": "Kmb", "name": "Kiruna malmbangård" },
+
+{ "code": "Apt", "name": "Aptas" },
+{ "code": "Mtn", "name": "Mertainen" },
+{ "code": "Pii", "name": "Pitkäjärvi" },
+{ "code": "Svv", "name": "Svappavaara" },
+
+{ "code": "Sum", "name": "Storuman" },
+{ "code": "Gun", "name": "Gunnarn" },
+{ "code": "Kat", "name": "Kattisavan" },
+{ "code": "Ly", "name": "Lycksele" },
+{ "code": "Lsp", "name": "Lycksele industrispår" },
+{ "code": "Lyg", "name": "Lyckselesågen" },
+{ "code": "Lyt", "name": "Lycksele timmer" },
+{ "code": "An", "name": "Arvån" },
+{ "code": "Åm", "name": "Åmsele" }
+
   ],
   "korridorer": [
     {
@@ -405,6 +546,118 @@
         { "name": "Borås central – Värnamo central", "start": "Bsc", "end": "Väc" }
       ]
     },
+    {
+  "id": "BDN_aitik_till_koijuvaara",
+  "linjebokId": "BDN",
+  "name": "aitik_till_koijuvaara",
+  "ordning": ["Aik","Kaa"],
+  "tabellStrackor": [
+    { "name": "Aitik – Koijuvaara", "start": "Aik", "end": "Kaa" }
+  ]
+},
+{
+  "id": "BDN_bastutrask_till_skelleftehamns_ovre",
+  "linjebokId": "BDN",
+  "name": "bastuträsk_till_skelleftehamns_övre",
+  "ordning": ["Bst","Ffs","Skl","Hsb","Gse","Uvn","Söv"],
+  "tabellStrackor": [
+    { "name": "Bastuträsk – Skelleftehamns övre", "start": "Bst", "end": "Söv" }
+  ]
+},
+{
+  "id": "BDN_bjornfjell_till_lulea",
+  "linjebokId": "BDN",
+  "name": "björnfjell_till_luleå",
+  "ordning": [
+    "Bjf","Rgn","Kjå","Vj","Låk","Kå","Bln","Akt","Ak","Soa","Kpe","Sbk","Tnk","Bfs",
+    "Rsn","Rut","Kv","Pea","Kia","Rsi","Kx","Gy","Sjka","Lab","Ktm","Fjå","Har","Håk",
+    "Lin","Stk","Gvc","Kaa","Hrt","Rps","Nrt","Klv","Ntv","Kva","Pc","Mk","Tet","Nb",
+    "Lkä","Glt","Stä","Grs","Lså","Hfs","Bud","Bdn","Svb","Sän","Svt","Sby","Sus","Gst","Nvn","Le"
+  ],
+  "tabellStrackor": [
+    { "name": "Bjørnfjell – Bergfors", "start": "Bjf", "end": "Bfs" },
+    { "name": "Bergfors – Peuravaara", "start": "Bfs", "end": "Pea" },
+    { "name": "Peuravaara – Råtsi", "start": "Pea", "end": "Rsi" },
+    { "name": "Råtsi – Gällivare central", "start": "Rsi", "end": "Gvc" },
+    { "name": "Koijuvaara – Buddbyn", "start": "Kaa", "end": "Bud" },
+    { "name": "Bodens central – Sävastklinten", "start": "Bdn", "end": "Sän" },
+    { "name": "Sävastklinten – Sävast", "start": "Sän", "end": "Svt" },
+    { "name": "Sävast – Luleå", "start": "Svt", "end": "Le" }
+  ]
+},
+{
+  "id": "BDN_bodens_central_till_vannas",
+  "linjebokId": "BDN",
+  "name": "bodens_central_till_vännäs",
+  "ordning": [
+    "Bdn","Bds","Ht","Dbn","Brg","Lrg","Äy","Nyf","Ktä","Jnt","Sts","Klr","Sbi","Ltk","Mhn","Thm","Sto",
+    "Jrn","Ldl","Krb","Bst","Kaä","Åst","Luä","Etk","Yö","Hls","Vdn","Tvä","Tvb","Vän","Vns"
+  ],
+  "tabellStrackor": [
+    { "name": "Bodens central – Älvsbyn", "start": "Bdn", "end": "Äy" },
+    { "name": "Älvsbyn – Nyfors", "start": "Äy", "end": "Nyf" },
+    { "name": "Nyfors – Bastuträsk", "start": "Nyf", "end": "Bst" },
+    { "name": "Bastuträsk – Vännäs norra", "start": "Bst", "end": "Vän" },
+    { "name": "Vännäs norra – Vännäs", "start": "Vän", "end": "Vns" }
+  ]
+},
+{
+  "id": "BDN_haparanda_sodra_till_bodens_central",
+  "linjebokId": "BDN",
+  "name": "haparanda_södra_till_bodens_central",
+  "ordning": ["Hp","Kei","Vsk","Set","Ben","Klx","Klxv","Ran","Koj","Bet","Mjv","Sbä","Gen","Brå","Nml","Huö","Bud","Bdn"],
+  "tabellStrackor": [
+    { "name": "Haparanda södra – Buddbyn", "start": "Hp", "end": "Bud" }
+  ]
+},
+{
+  "id": "BDN_koskullskulle_till_gallivare_central",
+  "linjebokId": "BDN",
+  "name": "koskullskulle_till_gällivare_central",
+  "ordning": ["Kos","Gvc"],
+  "tabellStrackor": [
+    { "name": "Koskullskulle – Gällivare central", "start": "Kos", "end": "Gvc" }
+  ]
+},
+{
+  "id": "BDN_nyfors_till_pitea",
+  "linjebokId": "BDN",
+  "name": "nyfors_till_piteå",
+  "ordning": ["Äy","Nyf","Amk","Ptå"],
+  "tabellStrackor": [
+    { "name": "Älvsbyn – Nyfors", "start": "Äy", "end": "Nyf" },
+    { "name": "Nyfors – Piteå", "start": "Nyf", "end": "Ptå" }
+  ]
+},
+{
+  "id": "BDN_peuravaara_till_kiruna_malmbangard",
+  "linjebokId": "BDN",
+  "name": "peuravaara_till_kiruna_malmbangård",
+  "ordning": ["Pea","Kmb"],
+  "tabellStrackor": [
+    { "name": "Peuravaara – Kiruna malmbangård", "start": "Pea", "end": "Kmb" }
+  ]
+},
+{
+  "id": "BDN_ratsi_till_svappavaara",
+  "linjebokId": "BDN",
+  "name": "råtsi_till_svappavaara",
+  "ordning": ["Rsi","Apt","Mtn","Pii","Svv"],
+  "tabellStrackor": [
+    { "name": "Råtsi – Pitkäjärvi", "start": "Rsi", "end": "Pii" },
+    { "name": "Pitkäjärvi – Svappavaara", "start": "Pii", "end": "Svv" }
+  ]
+},
+{
+  "id": "BDN_storuman_till_hallnas",
+  "linjebokId": "BDN",
+  "name": "storuman_till_hällnäs",
+  "ordning": ["Sum","Gun","Kat","Ly","Lsp","Lyg","Lyt","An","Åm","Hls"],
+  "tabellStrackor": [
+    { "name": "Storuman – Hällnäs", "start": "Sum", "end": "Hls" }
+  ]
+}
+
     {
       "id": "GBG_alvhem_till_lilla_edet",
       "linjebokId": "GBG",
@@ -823,4 +1076,3 @@
     }
   ]
 }
-
