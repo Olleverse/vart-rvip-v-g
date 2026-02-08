@@ -547,6 +547,118 @@
       ]
     },
     {
+  "id": "BDN_aitik_till_koijuvaara",
+  "linjebokId": "BDN",
+  "name": "aitik_till_koijuvaara",
+  "ordning": ["Aik","Kaa"],
+  "tabellStrackor": [
+    { "name": "Aitik – Koijuvaara", "start": "Aik", "end": "Kaa" }
+  ]
+},
+{
+  "id": "BDN_bastutrask_till_skelleftehamns_ovre",
+  "linjebokId": "BDN",
+  "name": "bastuträsk_till_skellefteftehamns_övre",
+  "ordning": ["Bst","Ffs","Skl","Hsb","Gse","Uvn","Söv"],
+  "tabellStrackor": [
+    { "name": "Bastuträsk – Skelleftehamns övre", "start": "Bst", "end": "Söv" }
+  ]
+},
+{
+  "id": "BDN_bjornfjell_till_lulea",
+  "linjebokId": "BDN",
+  "name": "björnfjell_till_luleå",
+  "ordning": [
+    "Bjf","Rgn","Kjå","Vj","Låk","Kå","Bln","Akt","Ak","Soa","Kpe","Sbk","Tnk","Bfs",
+    "Rsn","Rut","Kv","Pea","Kia","Rsi","Kx","Gy","Sjka","Lab","Ktm","Fjå","Har","Håk",
+    "Lin","Stk","Gvc","Kaa","Hrt","Rps","Nrt","Klv","Ntv","Kva","Pc","Mk","Tet","Nb",
+    "Lkä","Glt","Stä","Grs","Lså","Hfs","Bud","Bdn","Svb","Sän","Svt","Sby","Sus","Gst","Nvn","Le"
+  ],
+  "tabellStrackor": [
+    { "name": "Bjørnfjell – Bergfors", "start": "Bjf", "end": "Bfs" },
+    { "name": "Bergfors – Peuravaara", "start": "Bfs", "end": "Pea" },
+    { "name": "Peuravaara – Råtsi", "start": "Pea", "end": "Rsi" },
+    { "name": "Råtsi – Gällivare central", "start": "Rsi", "end": "Gvc" },
+    { "name": "Koijuvaara – Buddbyn", "start": "Kaa", "end": "Bud" },
+    { "name": "Bodens central – Sävastklinten", "start": "Bdn", "end": "Sän" },
+    { "name": "Sävastklinten – Sävast", "start": "Sän", "end": "Svt" },
+    { "name": "Sävast – Luleå", "start": "Svt", "end": "Le" }
+  ]
+},
+{
+  "id": "BDN_bodens_central_till_vannas",
+  "linjebokId": "BDN",
+  "name": "bodens_central_till_vännäs",
+  "ordning": [
+    "Bdn","Bds","Ht","Dbn","Brg","Lrg","Äy","Nyf","Ktä","Jnt","Sts","Klr","Sbi","Ltk","Mhn","Thm","Sto",
+    "Jrn","Ldl","Krb","Bst","Kaä","Åst","Luä","Etk","Yö","Hls","Vdn","Tvä","Tvb","Vän","Vns"
+  ],
+  "tabellStrackor": [
+    { "name": "Bodens central – Älvsbyn", "start": "Bdn", "end": "Äy" },
+    { "name": "Älvsbyn – Nyfors", "start": "Äy", "end": "Nyf" },
+    { "name": "Nyfors – Bastuträsk", "start": "Nyf", "end": "Bst" },
+    { "name": "Bastuträsk – Vännäs norra", "start": "Bst", "end": "Vän" },
+    { "name": "Vännäs norra – Vännäs", "start": "Vän", "end": "Vns" }
+  ]
+},
+{
+  "id": "BDN_haparanda_sodra_till_bodens_central",
+  "linjebokId": "BDN",
+  "name": "haparanda_södra_till_bodens_central",
+  "ordning": ["Hp","Kei","Vsk","Set","Ben","Klx","Klxv","Ran","Koj","Bet","Mjv","Sbä","Gen","Brå","Nml","Huö","Bud","Bdn"],
+  "tabellStrackor": [
+    { "name": "Haparanda södra – Buddbyn", "start": "Hp", "end": "Bud" }
+  ]
+},
+{
+  "id": "BDN_koskullskulle_till_gallivare_central",
+  "linjebokId": "BDN",
+  "name": "koskullskulle_till_gällivare_central",
+  "ordning": ["Kos","Gvc"],
+  "tabellStrackor": [
+    { "name": "Koskullskulle – Gällivare central", "start": "Kos", "end": "Gvc" }
+  ]
+},
+{
+  "id": "BDN_nyfors_till_pitea",
+  "linjebokId": "BDN",
+  "name": "nyfors_till_piteå",
+  "ordning": ["Äy","Nyf","Amk","Ptå"],
+  "tabellStrackor": [
+    { "name": "Älvsbyn – Nyfors", "start": "Äy", "end": "Nyf" },
+    { "name": "Nyfors – Piteå", "start": "Nyf", "end": "Ptå" }
+  ]
+},
+{
+  "id": "BDN_peuravaara_till_kiruna_malmbangard",
+  "linjebokId": "BDN",
+  "name": "peuravaara_till_kiruna_malmbangård",
+  "ordning": ["Pea","Kmb"],
+  "tabellStrackor": [
+    { "name": "Peuravaara – Kiruna malmbangård", "start": "Pea", "end": "Kmb" }
+  ]
+},
+{
+  "id": "BDN_ratsi_till_svappavaara",
+  "linjebokId": "BDN",
+  "name": "råtsi_till_svappavaara",
+  "ordning": ["Rsi","Apt","Mtn","Pii","Svv"],
+  "tabellStrackor": [
+    { "name": "Råtsi – Pitkäjärvi", "start": "Rsi", "end": "Pii" },
+    { "name": "Pitkäjärvi – Svappavaara", "start": "Pii", "end": "Svv" }
+  ]
+},
+{
+  "id": "BDN_storuman_till_hallnas",
+  "linjebokId": "BDN",
+  "name": "storuman_till_hällnäs",
+  "ordning": ["Sum","Gun","Kat","Ly","Lsp","Lyg","Lyt","An","Åm","Hls"],
+  "tabellStrackor": [
+    { "name": "Storuman – Hällnäs", "start": "Sum", "end": "Hls" }
+  ]
+}
+
+    {
       "id": "GBG_alvhem_till_lilla_edet",
       "linjebokId": "GBG",
       "name": "alvhem_till_lilla_edet",
