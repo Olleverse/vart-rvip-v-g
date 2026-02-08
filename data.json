@@ -269,6 +269,188 @@
     { "code": "Hlp", "name": "Hasslarp" }
   ],
   "korridorer": [
+  {
+    "id": "GBG_almedal_till_varnamo_central",
+    "linjebokId": "GBG",
+    "name": "almedal_till_värnamo-central",
+    "ordning": ["Am","Mdö","Myk","Häy","Hås","Rd","Boy","Rö","Sae","Bsc","Apd","Hil","Lme","Grm","Het","Gnö","Hto","Väc"],
+    "tabellStrackor": [
+      { "name": "Almedal – Borås central", "start": "Am", "end": "Bsc" },
+      { "name": "Borås central – Värnamo central", "start": "Bsc", "end": "Väc" }
+    ]
+  },
+  {
+    "id": "GBG_alvhem_till_lilla_edet",
+    "linjebokId": "GBG",
+    "name": "alvhem_till_lilla_edet",
+    "ordning": ["Alh","Löö","Let"],
+    "tabellStrackor": [
+      { "name": "Alvhem – Lilla Edet", "start": "Alh", "end": "Let" }
+    ]
+  },
+  {
+    "id": "GBG_bengtsfors_till_mellerud",
+    "linjebokId": "GBG",
+    "name": "bengtsfors_till_mellerud",
+    "ordning": ["Bef","Tjs","Bfo","Flgd","Lgb","Dld","Tsl","But","Rån","Hvr","Åb","Skru","Ml"],
+    "tabellStrackor": [
+      { "name": "Bengtsfors – Mellerud", "start": "Bef", "end": "Ml" }
+    ]
+  },
+  {
+    "id": "GBG_falkoping_c_till_nassjo_c",
+    "linjebokId": "GBG",
+    "name": "falköping_c_till_nässjö_c",
+    "ordning": ["F","Vf","Sm","Mu","Ho","Bry","Jö","Hka","Th","Fm","Kröb","Äng","N"],
+    "tabellStrackor": [
+      { "name": "Falköping C – Nässjö C", "start": "F", "end": "N" }
+    ]
+  },
+  {
+    "id": "GBG_gardsjo_till_hakantorp",
+    "linjebokId": "GBG",
+    "name": "gårdsjö_till_håkantorp",
+    "ordning": ["Gdö","Hova","Tvd","Lyd","Hsr","Mst","Lnå","Äsr","Öäg","Fhm","Hlk","Rbk","Trm","Bmb","Kll","Fiä","Lkp","Fc","Lve","Jps","Stlv","Håp"],
+    "tabellStrackor": [
+      { "name": "Gårdsjö – Håkantorp", "start": "Gdö", "end": "Håp" }
+    ]
+  },
+  {
+    "id": "GBG_goteborg_c_till_kistinge",
+    "linjebokId": "GBG",
+    "name": "göteborg_c_till_kistinge",
+    "ordning": ["G","Gro","Lis","Am","Mdn","Krd","Ldo","Ag","Lgd","Khe","Kb","Lek","Åsa","Få","Vrö","Vbgb","Vbc","Haa","Tye","Teo","Fabp","He","Bp","Btp","Fur","Hd","Hdr","Kst"],
+    "tabellStrackor": [
+      { "name": "Göteborg C – Hamra", "start": "G", "end": "Haa" },
+      { "name": "Hamra – Furet", "start": "Haa", "end": "Fur" },
+      { "name": "Furet – Kistinge", "start": "Fur", "end": "Kst" }
+    ]
+  },
+  {
+    "id": "GBG_goteborg_kville_savedalen",
+    "linjebokId": "GBG",
+    "name": "göteborg_kville_sävedalen",
+    "ordning": ["Gk","Or","Gsv","Sär","Sel"],
+    "tabellStrackor": [
+      { "name": "Göteborg Kville – Olskroken", "start": "Gk", "end": "Or" },
+      { "name": "Olskroken – Göteborg Sävenäs", "start": "Or", "end": "Gsv" },
+      { "name": "Sävenäs rbg – Sävedalen", "start": "Sär", "end": "Sel" }
+    ]
+  },
+  {
+    "id": "GBG_goteborg_marieholm_till_goteborg_skandiahamnen",
+    "linjebokId": "GBG",
+    "name": "göteborg_marieholm_till_göteborg-_skandiahamnen",
+    "ordning": ["Gbm","Gk","Gli","Pöb","Gsh"],
+    "tabellStrackor": [
+      { "name": "Göteborg Marieholm – Göteborg Kville", "start": "Gbm", "end": "Gk" },
+      { "name": "Göteborg Kville – Göteborg Skandiahamnen", "start": "Gk", "end": "Gsh" }
+    ]
+  },
+  {
+    "id": "GBG_goteborg_marieholm_till_olskroken",
+    "linjebokId": "GBG",
+    "name": "göteborg_marieholm_till_olskroken",
+    "ordning": ["Gbm","Or"],
+    "tabellStrackor": [
+      { "name": "Göteborg Marieholm – Olskroken", "start": "Gbm", "end": "Or" }
+    ]
+  },
+  {
+    "id": "GBG_herrljunga_central_till_varbergs_central",
+    "linjebokId": "GBG",
+    "name": "herrljunga_central_till_varbergs_central",
+    "ordning": ["Hrc","Lju","Top","Moy","Boa","Fra","Nosk","Knl","Bsc","Vfo","Frl","Kin","Asb","See","Bgm","Bjo","Hre","Jäy","Vdi","Dre","Tof","Vbgb","Vbc"],
+    "tabellStrackor": [
+      { "name": "Herrljunga central – Knalleland", "start": "Hrc", "end": "Knl" },
+      { "name": "Knalleland – Borås central", "start": "Knl", "end": "Bsc" },
+      { "name": "Borås central – Varberg", "start": "Bsc", "end": "Vbc" }
+    ]
+  },
+  {
+    "id": "GBG_jonkoping_c_till_jonkoping_gbg",
+    "linjebokId": "GBG",
+    "name": "jönkoping_c_till_jönkoping_gbg",
+    "ordning": ["Jö","Rkö","Jögb"],
+    "tabellStrackor": [
+      { "name": "Jönköping C – Jönköping gbg", "start": "Jö", "end": "Jögb" }
+    ]
+  },
+  {
+    "id": "GBG_kil_till_goteborg_c",
+    "linjebokId": "GBG",
+    "name": "kil_till_göteborg_c",
+    "ordning": ["Kil","El","Våb","Gms","Sgm","Vdb","Byä","Sfl","Ål","Töe","Ånm","Kpm","Ml","Erk","Skbl","Brl","Fdf","Bjh","Öx","Thn","Veas","Vpm","Tbn","Les","Alh","Än","Nol","Nöe","Bhs","Sue","Agb","Gbm","Gas","Or","G"],
+    "tabellStrackor": [
+      { "name": "Kil – Skälebol", "start": "Kil", "end": "Skbl" },
+      { "name": "Skälebol – Öxnered", "start": "Skbl", "end": "Öx" },
+      { "name": "Öxnered – Göteborg Marieholm", "start": "Öx", "end": "Gbm" },
+      { "name": "Olskroken – Göteborgs central", "start": "Or", "end": "G" }
+    ]
+  },
+  {
+    "id": "GBG_kornsjo_till_skalebol",
+    "linjebokId": "GBG",
+    "name": "kornsjö_till_skälebol",
+    "ordning": ["Ko","Mon","Ed","Bäf","Drt","Rås","Skbl"],
+    "tabellStrackor": [
+      { "name": "Kornsjö – Skälebol", "start": "Ko", "end": "Skbl" }
+    ]
+  },
+  {
+    "id": "GBG_olskroken_gubbero",
+    "linjebokId": "GBG",
+    "name": "olskroken_gubbero",
+    "ordning": ["Or","Gro"],
+    "tabellStrackor": [
+      { "name": "Olskroken – Gubbero", "start": "Or", "end": "Gro" }
+    ]
+  },
+  {
+    "id": "GBG_skovde_c_till_goteborg_c",
+    "linjebokId": "GBG",
+    "name": "skövde_c_till_göteborg_c",
+    "ordning": ["Sk","Rmtp","Ss","Fn","F","Fby","Kä","Hrc","Hrv","Vgå","Agg","A","Bgs","Vbd","Ns","Ndv","Fd","Sn","Lr","Asd","Apn","J","Jv","P","Sel","Gsv","Or","G"],
+    "tabellStrackor": [
+      { "name": "Skövde central – Falköpings norra", "start": "Sk", "end": "Fn" },
+      { "name": "Falköpings central – Herrljunga central", "start": "F", "end": "Hrc" },
+      { "name": "Herrljunga västra – Partille", "start": "Hrv", "end": "P" },
+      { "name": "Partille – Sävedalen", "start": "P", "end": "Sel" },
+      { "name": "Sävedalen – Olskroken", "start": "Sel", "end": "Or" },
+      { "name": "Olskroken – Göteborgs central", "start": "Or", "end": "G" }
+    ]
+  },
+  {
+    "id": "GBG_stromstad_till_goteborg_c",
+    "linjebokId": "GBG",
+    "name": "strömstad_till_göteborg_c",
+    "ordning": ["Smd","Ske","Övb","Kgs","Tnu","Rbh","Hlv","Dl","Mkl","Uv","Uö","Ghd","Lj","Svg","Snu","Sth","Kde","Yb","Sve","Gk","Or","G"],
+    "tabellStrackor": [
+      { "name": "Strömstad – Uddevalla central", "start": "Smd", "end": "Uv" },
+      { "name": "Uddevalla central – Göteborg Kville", "start": "Uv", "end": "Gk" },
+      { "name": "Göteborg Kville – Olskroken", "start": "Gk", "end": "Or" },
+      { "name": "Olskroken – Göteborgs central", "start": "Or", "end": "G" }
+    ]
+  },
+  {
+    "id": "GBG_torebo_till_falkenberg_godsstation",
+    "linjebokId": "GBG",
+    "name": "torebo_till_falkenberg_godsstation",
+    "ordning": ["Teo","Fabg"],
+    "tabellStrackor": [
+      { "name": "Torebo – Falkenberg godsstation", "start": "Teo", "end": "Fabg" }
+    ]
+  },
+  {
+    "id": "GBG_uddevalla_central_till_herrljunga_central",
+    "linjebokId": "GBG",
+    "name": "uddevalla_central_till_herrljunga_central",
+    "ordning": ["Uv","Ryr","Öx","Vg","Vag","Gop","Håp","Vaa","Ved","Hrc"],
+    "tabellStrackor": [
+      { "name": "Uddevalla Central – Öxnered", "start": "Uv", "end": "Öx" },
+      { "name": "Öxnered – Herrljunga central", "start": "Öx", "end": "Hrc" }
+    ]
+  },
     {
       "id": "MAL_arlov_till_malmo_gbg",
       "linjebokId": "MAL",
