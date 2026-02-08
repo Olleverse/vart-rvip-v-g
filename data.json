@@ -1,4 +1,5 @@
 {
+  "adminPin": "6431",
   "linjebok": {
     "id": "D5_Sk_G",
     "name": "TC Göteborg – Underlag till linjebok D5: Sk → G"
@@ -40,4 +41,3 @@
     { "id": "HS_2_P_G", "name": "Partille – Göteborg C", "start": "P", "end": "G" }
   ]
 }
-
