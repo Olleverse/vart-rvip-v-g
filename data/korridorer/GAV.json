@@ -1,147 +1,152 @@
 {
-  "id": "GAV_falun_central_till_grycksbo",
-  "linjebokId": "GAV",
-  "name": "falun_central_till_grycksbo",
-  "ordning": ["Fln","Gyo"],
-  "tabellStrackor": [
-    { "name": "Falun central – Grycksbo", "start": "Fln", "end": "Gyo" }
+  "korridorer": [
+    {
+      "id": "GAV_falun_central_till_grycksbo",
+      "linjebokId": "GAV",
+      "name": "falun_central_till_grycksbo",
+      "ordning": ["Fln","Gyo"],
+      "tabellStrackor": [
+        { "name": "Falun central – Grycksbo", "start": "Fln", "end": "Gyo" }
+      ]
+    },
+    {
+      "id": "GAV_fliskar_till_borlange_central",
+      "linjebokId": "GAV",
+      "name": "fliskar_till_borlänge_central",
+      "ordning": ["Fär","Gä","Gäb","Hg","Nvl","Fb","Snv","Vmu","Kgd","Sv","Gad","Hfr","Lsj","Ryg","Koä","Fln","Hno","Orn","Dmn","Blgc"],
+      "tabellStrackor": [
+        { "name": "Fliskär – Gävle central", "start": "Fär", "end": "Gä" },
+        { "name": "Gävle godsbangård – Gävle central", "start": "Gäb", "end": "Gä" },
+        { "name": "Gävle central – Hagaström", "start": "Gä", "end": "Hg" },
+        { "name": "Hagaström – Storvik", "start": "Hg", "end": "Sv" },
+        { "name": "Storvik – Domnarvet", "start": "Sv", "end": "Dmn" },
+        { "name": "Domnarvet – Borlänge central", "start": "Dmn", "end": "Blgc" }
+      ]
+    },
+    {
+      "id": "GAV_ljusdal_till_frovi",
+      "linjebokId": "GAV",
+      "name": "ljusdal_till_frövi",
+      "ordning": [
+        "Ls","Skä","Jr","Lö","Ksö","Små","Vl","Ab","Lot","Bn","Kls","Rbo","Hdn","Lb","Döl","Mog","Ob","Msn","Jb","Åh",
+        "Sv","Tså","Hä","Dgn","By","Hl","Hlr","Mrs","Fs","Ju","Avky","Hma","Kbn","Snt","Omb","Fgc","Dn","Skb","Krn",
+        "Nkt","Sba","Slg","Fv"
+      ],
+      "tabellStrackor": [
+        { "name": "Ljusdal – Bollnäs", "start": "Ls", "end": "Bn" },
+        { "name": "Bollnäs – Kilafors", "start": "Bn", "end": "Kls" },
+        { "name": "Kilafors – Holmsveden", "start": "Kls", "end": "Hdn" },
+        { "name": "Holmsveden – Mo grindar", "start": "Hdn", "end": "Mog" },
+        { "name": "Mo grindar – Ockelbo", "start": "Mog", "end": "Ob" },
+        { "name": "Ockelbo – Storvik", "start": "Ob", "end": "Sv" },
+        { "name": "Storvik – Avesta Krylbo", "start": "Sv", "end": "Avky" },
+        { "name": "Avesta Krylbo – Snyten", "start": "Avky", "end": "Snt" },
+        { "name": "Snyten – Fagersta central", "start": "Snt", "end": "Fgc" },
+        { "name": "Fagersta central – Frövi", "start": "Fgc", "end": "Fv" }
+      ]
+    },
+    {
+      "id": "GAV_ludvika_till_fagersta_central",
+      "linjebokId": "GAV",
+      "name": "ludvika_till_fagersta_central",
+      "ordning": ["La","Hge","Smj","Sre","Vad","Fgn","Fgc"],
+      "tabellStrackor": [
+        { "name": "Ludvika – Fagersta central", "start": "La", "end": "Fgc" }
+      ]
+    },
+    {
+      "id": "GAV_malung_till_repbacken",
+      "linjebokId": "GAV",
+      "name": "malung_till_repbacken",
+      "ordning": ["Mlg","Mlgg","Mlgf","Ym","Äp","Råg","Vo","Dj","Nås","Böo","Dfl","Mfj","Rbä"],
+      "tabellStrackor": [
+        { "name": "Malung – Repbäcken", "start": "Mlg", "end": "Rbä" }
+      ]
+    },
+    {
+      "id": "GAV_morastrand_till_avesta_krylbo",
+      "linjebokId": "GAV",
+      "name": "morastrand_till_avesta_krylbo",
+      "ordning": ["Mras","Mrc","Gså","Rv","Tlg","Lea","Lsd","In","Gnf","Då","Rbä","Blgc","Sau","Gtf","St","Vhy","Hdm","Luå","Snb","Acm","Avky"],
+      "tabellStrackor": [
+        { "name": "Morastrand – Mora central", "start": "Mras", "end": "Mrc" },
+        { "name": "Mora central – Borlänge central", "start": "Mrc", "end": "Blgc" },
+        { "name": "Borlänge central – Avesta Krylbo", "start": "Blgc", "end": "Avky" }
+      ]
+    },
+    {
+      "id": "GAV_morastrand_till_lomsmyren",
+      "linjebokId": "GAV",
+      "name": "morastrand_till_lomsmyren",
+      "ordning": ["Mras","Mrai","Wibe","Lom"],
+      "tabellStrackor": [
+        { "name": "Morastrand – Lomsmyren", "start": "Mras", "end": "Lom" }
+      ]
+    },
+    {
+      "id": "GAV_marbäck_till_morastrand",
+      "linjebokId": "GAV",
+      "name": "märbäck_till_morastrand",
+      "ordning": ["Mäk","Bbe","Mras"],
+      "tabellStrackor": [
+        { "name": "Märbäck – Morastrand", "start": "Mäk", "end": "Mras" }
+      ]
+    },
+    {
+      "id": "GAV_ockelbo_till_gavle_central",
+      "linjebokId": "GAV",
+      "name": "ockelbo_till_gävle_central",
+      "ordning": ["Ob","Kfn","Osl","Smo","Gä","Gäb"],
+      "tabellStrackor": [
+        { "name": "Ockelbo – Strömsbro", "start": "Ob", "end": "Smo" },
+        { "name": "Strömsbro – Gävle central", "start": "Smo", "end": "Gä" }
+      ]
+    },
+    {
+      "id": "GAV_sandarne_till_vallvik",
+      "linjebokId": "GAV",
+      "name": "sandarne_till_vallvik",
+      "ordning": ["Sne","Lsb","Vv"],
+      "tabellStrackor": [
+        { "name": "Sandarne – Vallvik", "start": "Sne", "end": "Vv" }
+      ]
+    },
+    {
+      "id": "GAV_sundsvalls_central_till_uppsala_central",
+      "linjebokId": "GAV",
+      "name": "sundsvalls_central_till_uppsala_central",
+      "ordning": [
+        "Suv","Suc","Ston","Sik","Nly","Njb","Maj","Gön","Åkg","Tjä","Gry","Gnp","Åmy","Håg","Sten","Via","Hkl","Id",
+        "Boda","Myra","Lsn","Käe","Shv","Gui","Lse","Vv","Säu","Ax","Krl","Hfj","Tdj","Hly","Smo","Gäb","Gä","Bom",
+        "Fvk","Sur","Äkb","Maa","Mrm","Meh","Os","Tip","Säp","Tbo","Öh","Jlo","Syt","Sas","Vha","Srv","Sam","U"
+      ],
+      "tabellStrackor": [
+        { "name": "Sundsvall central – Nolby", "start": "Suc", "end": "Nly" },
+        { "name": "Nolby – Njurundabommen", "start": "Nly", "end": "Njb" },
+        { "name": "Njurundabommen – Söderhamns västra", "start": "Njb", "end": "Shv" },
+        { "name": "Söderhamns västra – Strömsbro", "start": "Shv", "end": "Smo" },
+        { "name": "Strömsbro – Gävle central", "start": "Smo", "end": "Gä" },
+        { "name": "Gävle central – Uppsala central", "start": "Gä", "end": "U" }
+      ]
+    },
+    {
+      "id": "GAV_soderhamns_vastra_till_kilafors",
+      "linjebokId": "GAV",
+      "name": "söderhamns_västra_till_kilafors",
+      "ordning": ["Shv","Me","Mb","Kls"],
+      "tabellStrackor": [
+        { "name": "Söderhamns västra – Marmaverken", "start": "Shv", "end": "Me" },
+        { "name": "Marmaverken – Kilafors", "start": "Me", "end": "Kls" }
+      ]
+    },
+    {
+      "id": "GAV_orbyhus_till_hallstavik",
+      "linjebokId": "GAV",
+      "name": "örbyhus_till_hallstavik",
+      "ordning": ["Öh","Dma","Gmo","Hrm","Hak"],
+      "tabellStrackor": [
+        { "name": "Örbyhus – Hallstavik", "start": "Öh", "end": "Hak" }
+      ]
+    }
   ]
-},
-{
-  "id": "GAV_fliskar_till_borlange_central",
-  "linjebokId": "GAV",
-  "name": "fliskar_till_borlänge_central",
-  "ordning": ["Fär","Gä","Gäb","Hg","Nvl","Fb","Snv","Vmu","Kgd","Sv","Gad","Hfr","Lsj","Ryg","Koä","Fln","Hno","Orn","Dmn","Blgc"],
-  "tabellStrackor": [
-    { "name": "Fliskär – Gävle central", "start": "Fär", "end": "Gä" },
-    { "name": "Gävle godsbangård – Gävle central", "start": "Gäb", "end": "Gä" },
-    { "name": "Gävle central – Hagaström", "start": "Gä", "end": "Hg" },
-    { "name": "Hagaström – Storvik", "start": "Hg", "end": "Sv" },
-    { "name": "Storvik – Domnarvet", "start": "Sv", "end": "Dmn" },
-    { "name": "Domnarvet – Borlänge central", "start": "Dmn", "end": "Blgc" }
-  ]
-},
-{
-  "id": "GAV_ljusdal_till_frovi",
-  "linjebokId": "GAV",
-  "name": "ljusdal_till_frövi",
-  "ordning": [
-    "Ls","Skä","Jr","Lö","Ksö","Små","Vl","Ab","Lot","Bn","Kls","Rbo","Hdn","Lb","Döl","Mog","Ob","Msn","Jb","Åh",
-    "Sv","Tså","Hä","Dgn","By","Hl","Hlr","Mrs","Fs","Ju","Avky","Hma","Kbn","Snt","Omb","Fgc","Dn","Skb","Krn",
-    "Nkt","Sba","Slg","Fv"
-  ],
-  "tabellStrackor": [
-    { "name": "Ljusdal – Bollnäs", "start": "Ls", "end": "Bn" },
-    { "name": "Bollnäs – Kilafors", "start": "Bn", "end": "Kls" },
-    { "name": "Kilafors – Holmsveden", "start": "Kls", "end": "Hdn" },
-    { "name": "Holmsveden – Mo grindar", "start": "Hdn", "end": "Mog" },
-    { "name": "Mo grindar – Ockelbo", "start": "Mog", "end": "Ob" },
-    { "name": "Ockelbo – Storvik", "start": "Ob", "end": "Sv" },
-    { "name": "Storvik – Avesta Krylbo", "start": "Sv", "end": "Avky" },
-    { "name": "Avesta Krylbo – Snyten", "start": "Avky", "end": "Snt" },
-    { "name": "Snyten – Fagersta central", "start": "Snt", "end": "Fgc" },
-    { "name": "Fagersta central – Frövi", "start": "Fgc", "end": "Fv" }
-  ]
-},
-{
-  "id": "GAV_ludvika_till_fagersta_central",
-  "linjebokId": "GAV",
-  "name": "ludvika_till_fagersta_central",
-  "ordning": ["La","Hge","Smj","Sre","Vad","Fgn","Fgc"],
-  "tabellStrackor": [
-    { "name": "Ludvika – Fagersta central", "start": "La", "end": "Fgc" }
-  ]
-},
-{
-  "id": "GAV_malung_till_repbacken",
-  "linjebokId": "GAV",
-  "name": "malung_till_repbacken",
-  "ordning": ["Mlg","Mlgg","Mlgf","Ym","Äp","Råg","Vo","Dj","Nås","Böo","Dfl","Mfj","Rbä"],
-  "tabellStrackor": [
-    { "name": "Malung – Repbäcken", "start": "Mlg", "end": "Rbä" }
-  ]
-},
-{
-  "id": "GAV_morastrand_till_avesta_krylbo",
-  "linjebokId": "GAV",
-  "name": "morastrand_till_avesta_krylbo",
-  "ordning": ["Mras","Mrc","Gså","Rv","Tlg","Lea","Lsd","In","Gnf","Då","Rbä","Blgc","Sau","Gtf","St","Vhy","Hdm","Luå","Snb","Acm","Avky"],
-  "tabellStrackor": [
-    { "name": "Morastrand – Mora central", "start": "Mras", "end": "Mrc" },
-    { "name": "Mora central – Borlänge central", "start": "Mrc", "end": "Blgc" },
-    { "name": "Borlänge central – Avesta Krylbo", "start": "Blgc", "end": "Avky" }
-  ]
-},
-{
-  "id": "GAV_morastrand_till_lomsmyren",
-  "linjebokId": "GAV",
-  "name": "morastrand_till_lomsmyren",
-  "ordning": ["Mras","Mrai","Wibe","Lom"],
-  "tabellStrackor": [
-    { "name": "Morastrand – Lomsmyren", "start": "Mras", "end": "Lom" }
-  ]
-},
-{
-  "id": "GAV_marbäck_till_morastrand",
-  "linjebokId": "GAV",
-  "name": "märbäck_till_morastrand",
-  "ordning": ["Mäk","Bbe","Mras"],
-  "tabellStrackor": [
-    { "name": "Märbäck – Morastrand", "start": "Mäk", "end": "Mras" }
-  ]
-},
-{
-  "id": "GAV_ockelbo_till_gavle_central",
-  "linjebokId": "GAV",
-  "name": "ockelbo_till_gävle_central",
-  "ordning": ["Ob","Kfn","Osl","Smo","Gä","Gäb"],
-  "tabellStrackor": [
-    { "name": "Ockelbo – Strömsbro", "start": "Ob", "end": "Smo" },
-    { "name": "Strömsbro – Gävle central", "start": "Smo", "end": "Gä" }
-  ]
-},
-{
-  "id": "GAV_sandarne_till_vallvik",
-  "linjebokId": "GAV",
-  "name": "sandarne_till_vallvik",
-  "ordning": ["Sne","Lsb","Vv"],
-  "tabellStrackor": [
-    { "name": "Sandarne – Vallvik", "start": "Sne", "end": "Vv" }
-  ]
-},
-{
-  "id": "GAV_sundsvalls_central_till_uppsala_central",
-  "linjebokId": "GAV",
-  "name": "sundsvalls_central_till_uppsala_central",
-  "ordning": [
-    "Suv","Suc","Ston","Sik","Nly","Njb","Maj","Gön","Åkg","Tjä","Gry","Gnp","Åmy","Håg","Sten","Via","Hkl","Id",
-    "Boda","Myra","Lsn","Käe","Shv","Gui","Lse","Vv","Säu","Ax","Krl","Hfj","Tdj","Hly","Smo","Gäb","Gä","Bom",
-    "Fvk","Sur","Äkb","Maa","Mrm","Meh","Os","Tip","Säp","Tbo","Öh","Jlo","Syt","Sas","Vha","Srv","Sam","U"
-  ],
-  "tabellStrackor": [
-    { "name": "Sundsvall central – Nolby", "start": "Suc", "end": "Nly" },
-    { "name": "Nolby – Njurundabommen", "start": "Nly", "end": "Njb" },
-    { "name": "Njurundabommen – Söderhamns västra", "start": "Njb", "end": "Shv" },
-    { "name": "Söderhamns västra – Strömsbro", "start": "Shv", "end": "Smo" },
-    { "name": "Strömsbro – Gävle central", "start": "Smo", "end": "Gä" },
-    { "name": "Gävle central – Uppsala central", "start": "Gä", "end": "U" }
-  ]
-},
-{
-  "id": "GAV_soderhamns_vastra_till_kilafors",
-  "linjebokId": "GAV",
-  "name": "söderhamns_västra_till_kilafors",
-  "ordning": ["Shv","Me","Mb","Kls"],
-  "tabellStrackor": [
-    { "name": "Söderhamns västra – Marmaverken", "start": "Shv", "end": "Me" },
-    { "name": "Marmaverken – Kilafors", "start": "Me", "end": "Kls" }
-  ]
-},
-{
-  "id": "GAV_orbyhus_till_hallstavik",
-  "linjebokId": "GAV",
-  "name": "örbyhus_till_hallstavik",
-  "ordning": ["Öh","Dma","Gmo","Hrm","Hak"],
-  "tabellStrackor": [
-    { "name": "Örbyhus – Hallstavik", "start": "Öh", "end": "Hak" }
-  ]
+}
