@@ -558,7 +558,7 @@
 {
   "id": "BDN_bastutrask_till_skelleftehamns_ovre",
   "linjebokId": "BDN",
-  "name": "bastuträsk_till_skellefteftehamns_övre",
+  "name": "bastuträsk_till_skelleftehamns_övre",
   "ordning": ["Bst","Ffs","Skl","Hsb","Gse","Uvn","Söv"],
   "tabellStrackor": [
     { "name": "Bastuträsk – Skelleftehamns övre", "start": "Bst", "end": "Söv" }
