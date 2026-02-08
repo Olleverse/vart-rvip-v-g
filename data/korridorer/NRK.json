@@ -1,202 +1,208 @@
 {
-  "id": "NRK_bjarka_saby_till_vastervik",
-  "linjebokId": "NRK",
-  "name": "bjärka_säby_till_västervik",
-  "ordning": ["Bsä","Mmg","Vsö","Bth","Åvg","Fal","Nl","Soö","Bda","Övmb","Övm","Fad","Gal","Avk","Tjsk","Vk"],
-  "tabellStrackor": [
-    { "name": "Bjärka Säby – Västervik", "start": "Bsä", "end": "Vk" }
+  "korridorer": [
+    {
+      "id": "NRK_bjarka_saby_till_vastervik",
+      "linjebokId": "NRK",
+      "name": "bjärka_säby_till_västervik",
+      "ordning": ["Bsä","Mmg","Vsö","Bth","Åvg","Fal","Nl","Soö","Bda","Övmb","Övm","Fad","Gal","Avk","Tjsk","Vk"],
+      "tabellStrackor": [
+        { "name": "Bjärka Säby – Västervik", "start": "Bsä", "end": "Vk" }
+      ]
+    },
+    {
+      "id": "NRK_fagersta_central_till_kolback",
+      "linjebokId": "NRK",
+      "name": "fagersta_central_till_kolbäck",
+      "ordning": ["Fgn","Fgc","Äbg","Vso","Brh","Rmn","Shr","Hh","Kbä"],
+      "tabellStrackor": [
+        { "name": "Fagersta central – Ängelsberg", "start": "Fgc", "end": "Äbg" },
+        { "name": "Ängelsberg – Virsbo", "start": "Äbg", "end": "Vso" },
+        { "name": "Virsbo – Brattheden", "start": "Vso", "end": "Brh" },
+        { "name": "Brattheden – Surahammar", "start": "Brh", "end": "Shr" },
+        { "name": "Surahammar – Hallstahammar", "start": "Shr", "end": "Hh" },
+        { "name": "Hallstahammar – Kolbäck", "start": "Hh", "end": "Kbä" }
+      ]
+    },
+    {
+      "id": "NRK_finspang_till_kimstad",
+      "linjebokId": "NRK",
+      "name": "finspång_till_kimstad",
+      "ordning": ["Fg","Sbl","Kms"],
+      "tabellStrackor": [
+        { "name": "Finspång – Kimstad", "start": "Fg", "end": "Kms" }
+      ]
+    },
+    {
+      "id": "NRK_jadersbruk_till_vasteras_norra",
+      "linjebokId": "NRK",
+      "name": "jädersbruk_till_västerås_norra",
+      "ordning": ["Jbk","Arb","Vsg","Kp","Morp","Kbä","Dt","Våv","Vå","Vån"],
+      "tabellStrackor": [
+        { "name": "Jädersbruk – Arboga", "start": "Jbk", "end": "Arb" },
+        { "name": "Arboga – Valskog", "start": "Arb", "end": "Vsg" },
+        { "name": "Valskog – Köping", "start": "Vsg", "end": "Kp" },
+        { "name": "Köping – Munktorp", "start": "Kp", "end": "Morp" },
+        { "name": "Munktorp – Kolbäck", "start": "Morp", "end": "Kbä" },
+        { "name": "Kolbäck – Västerås västra", "start": "Kbä", "end": "Våv" },
+        { "name": "Västerås västra – Västerås central", "start": "Våv", "end": "Vå" },
+        { "name": "Västerås central – Västerås norra", "start": "Vå", "end": "Vån" }
+      ]
+    },
+    {
+      "id": "NRK_jarna_till_aby_sodra",
+      "linjebokId": "NRK",
+      "name": "järna_till_åby_södra",
+      "ordning": ["Jn","Hlö","Vhd","Lre","Tba","Ssa","Nk","Ebg","Jår","Åba","Kon","Gtå","Åbs"],
+      "tabellStrackor": [
+        { "name": "Järna – Hölö", "start": "Jn", "end": "Hlö" },
+        { "name": "Hölö – Vagnhärad", "start": "Hlö", "end": "Vhd" },
+        { "name": "Vagnhärad – Lästringe", "start": "Vhd", "end": "Lre" },
+        { "name": "Lästringe – Tystberga", "start": "Lre", "end": "Tba" },
+        { "name": "Tystberga – Sjösa", "start": "Tba", "end": "Ssa" },
+        { "name": "Sjösa – Nyköpings central", "start": "Ssa", "end": "Nk" },
+        { "name": "Nyköpings central – Enstaberga", "start": "Nk", "end": "Ebg" },
+        { "name": "Enstaberga – Jönåker", "start": "Ebg", "end": "Jår" },
+        { "name": "Jönåker – Ålberga", "start": "Jår", "end": "Åba" },
+        { "name": "Ålberga – Kolmården", "start": "Åba", "end": "Kon" },
+        { "name": "Kolmården – Getå", "start": "Kon", "end": "Gtå" },
+        { "name": "Getå – Åby södra", "start": "Gtå", "end": "Åbs" }
+      ]
+    },
+    {
+      "id": "NRK_katrineholms_central_till_gamlarp",
+      "linjebokId": "NRK",
+      "name": "katrineholms_central_till_gamlarp",
+      "ordning": ["K","Stö","Smt","Åbs","Nr","Fi","Kms","Nh","Gi","Lgm","Lp","Vsd","Mt","My","Lkn","Bx","Smn","Tns","Gp","Frd","Ras","Any","Fls","Vim","Gmp"],
+      "tabellStrackor": [
+        { "name": "Katrineholm – Strångsjö", "start": "K", "end": "Stö" },
+        { "name": "Strångsjö – Simonstorp", "start": "Stö", "end": "Smt" },
+        { "name": "Simonstorp – Åby södra", "start": "Smt", "end": "Åbs" },
+        { "name": "Åby södra – Norrköping", "start": "Åbs", "end": "Nr" },
+        { "name": "Norrköping – Fiskeby", "start": "Nr", "end": "Fi" },
+        { "name": "Fiskeby – Kimstad", "start": "Fi", "end": "Kms" },
+        { "name": "Kimstad – Gistad", "start": "Kms", "end": "Gi" },
+        { "name": "Gistad – Linghem", "start": "Gi", "end": "Lgm" },
+        { "name": "Linghem – Linköping", "start": "Lgm", "end": "Lp" },
+        { "name": "Linköping – Vikingstad", "start": "Lp", "end": "Vsd" },
+        { "name": "Vikingstad – Mantorp", "start": "Vsd", "end": "Mt" },
+        { "name": "Mantorp – Mjölby", "start": "Mt", "end": "My" },
+        { "name": "Mjölby – Lindekullen", "start": "My", "end": "Lkn" },
+        { "name": "Lindekullen – Boxholm", "start": "Lkn", "end": "Bx" },
+        { "name": "Boxholm – Sommen", "start": "Bx", "end": "Smn" },
+        { "name": "Sommen – Tranås", "start": "Smn", "end": "Tns" },
+        { "name": "Tranås – Gripenberg", "start": "Tns", "end": "Gp" },
+        { "name": "Gripenberg – Frinnaryd", "start": "Gp", "end": "Frd" },
+        { "name": "Frinnaryd – Ralingsås", "start": "Frd", "end": "Ras" },
+        { "name": "Ralingsås – Flisby", "start": "Ras", "end": "Fls" },
+        { "name": "Flisby – Vimnarp", "start": "Fls", "end": "Vim" },
+        { "name": "Vimnarp – Gamlarp", "start": "Vim", "end": "Gmp" }
+      ]
+    },
+    {
+      "id": "NRK_kolback_till_rekarne",
+      "linjebokId": "NRK",
+      "name": "kolbäck_till_rekarne",
+      "ordning": ["Kbä","Ssh","Ksu","Ksus","Rke"],
+      "tabellStrackor": [
+        { "name": "Kolbäck – Strömsholm", "start": "Kbä", "end": "Ssh" },
+        { "name": "Strömsholm – Kvicksund", "start": "Ssh", "end": "Ksu" },
+        { "name": "Kvicksund – Rekarne", "start": "Ksu", "end": "Rke" }
+      ]
+    },
+    {
+      "id": "NRK_linkopings_central_till_rimforsa",
+      "linjebokId": "NRK",
+      "name": "linköpings_central_till_rimforsa",
+      "ordning": ["Lp","Tn","Hj","Suf","Bsä","Bsp","Brk","Gäd","Oph","Rfb","Rf"],
+      "tabellStrackor": [
+        { "name": "Linköping – Hjulsbro", "start": "Lp", "end": "Hj" },
+        { "name": "Hjulsbro – Bjärka Säby", "start": "Hj", "end": "Bsä" },
+        { "name": "Bjärka Säby – Bestorp", "start": "Bsä", "end": "Bsp" },
+        { "name": "Bestorp – Brokind", "start": "Bsp", "end": "Brk" },
+        { "name": "Brokind – Gärdala", "start": "Brk", "end": "Gäd" },
+        { "name": "Gärdala – Opphem", "start": "Gäd", "end": "Oph" },
+        { "name": "Opphem – Rimforsa", "start": "Oph", "end": "Rf" }
+      ]
+    },
+    {
+      "id": "NRK_nybybruk_till_folkesta",
+      "linjebokId": "NRK",
+      "name": "nybybruk_till_folkesta",
+      "ordning": ["Nbr","Snl","Fok"],
+      "tabellStrackor": [
+        { "name": "Nybybruk – Folkesta", "start": "Nbr", "end": "Fok" }
+      ]
+    },
+    {
+      "id": "NRK_snyten_till_angelsberg",
+      "linjebokId": "NRK",
+      "name": "snyten_till_ängelsberg",
+      "ordning": ["Snt","Äbgb","Äbg"],
+      "tabellStrackor": [
+        { "name": "Snyten – Ängelsberg", "start": "Snt", "end": "Äbg" }
+      ]
+    },
+    {
+      "id": "NRK_sodertalje_syd_ovre_till_eskilstuna_central",
+      "linjebokId": "NRK",
+      "name": "södertälje_syd_övre_till_eskilstuna_central",
+      "ordning": ["Söö","Alä","Nkv","Ryb","Lg","Gru","Mby","Sgs","Häd","Bva","Kju","Et"],
+      "tabellStrackor": [
+        { "name": "Södertälje syd övre – Nykvarn", "start": "Söö", "end": "Nkv" },
+        { "name": "Nykvarn – Ryssjöbrink", "start": "Nkv", "end": "Ryb" },
+        { "name": "Ryssjöbrink – Läggesta", "start": "Ryb", "end": "Lg" },
+        { "name": "Läggesta – Grundbro", "start": "Lg", "end": "Gru" },
+        { "name": "Grundbro – Malmby", "start": "Gru", "end": "Mby" },
+        { "name": "Malmby – Strängnäs", "start": "Mby", "end": "Sgs" },
+        { "name": "Strängnäs – Härad", "start": "Sgs", "end": "Häd" },
+        { "name": "Härad – Barva", "start": "Häd", "end": "Bva" },
+        { "name": "Barva – Kjula", "start": "Bva", "end": "Kju" },
+        { "name": "Kjula – Eskilstuna central", "start": "Kju", "end": "Et" }
+      ]
+    },
+    {
+      "id": "NRK_valskog_till_oxelosund",
+      "linjebokId": "NRK",
+      "name": "valskog_till_oxelösund",
+      "ordning": ["Vsg","Kör","Rke","Fok","Et","Skrp","Hål","Bgv","Hnä","Mlö","Fsö","Fle","Sii","Vre","Nks","Oxd"],
+      "tabellStrackor": [
+        { "name": "Valskog – Kungsör", "start": "Vsg", "end": "Kör" },
+        { "name": "Kungsör – Rekarne", "start": "Kör", "end": "Rke" },
+        { "name": "Rekarne – Folkesta", "start": "Rke", "end": "Fok" },
+        { "name": "Folkesta – Eskilstuna central", "start": "Fok", "end": "Et" },
+        { "name": "Eskilstuna central – Skogstorp", "start": "Et", "end": "Skrp" },
+        { "name": "Skogstorp – Hållsta", "start": "Skrp", "end": "Hål" },
+        { "name": "Hållsta – Bälgviken", "start": "Hål", "end": "Bgv" },
+        { "name": "Bälgviken – Hälleforsnäs", "start": "Bgv", "end": "Hnä" },
+        { "name": "Hälleforsnäs – Mellösa", "start": "Hnä", "end": "Mlö" },
+        { "name": "Mellösa – Flens övre", "start": "Mlö", "end": "Fsö" },
+        { "name": "Flens övre – Flen", "start": "Fsö", "end": "Fle" },
+        { "name": "Flens övre – Silinge", "start": "Fsö", "end": "Sii" },
+        { "name": "Silinge – Bettna", "start": "Sii", "end": "Vre" },
+        { "name": "Vrena – Nyköpings södra", "start": "Vre", "end": "Nks" },
+        { "name": "Nyköpings södra – Oxelösund", "start": "Nks", "end": "Oxd" }
+      ]
+    },
+    {
+      "id": "NRK_vasteras_norra_till_sala",
+      "linjebokId": "NRK",
+      "name": "västerås_norra_till_sala",
+      "ordning": ["Vån","Tb","Rt","Sl"],
+      "tabellStrackor": [
+        { "name": "Västerås norra – Tillberga", "start": "Vån", "end": "Tb" },
+        { "name": "Tillberga – Ransta", "start": "Tb", "end": "Rt" },
+        { "name": "Ransta – Sala", "start": "Rt", "end": "Sl" }
+      ]
+    },
+    {
+      "id": "NRK_aby_sodra_till_aby_gods",
+      "linjebokId": "NRK",
+      "name": "åby_södra_till_åby_godsbangård",
+      "ordning": ["Åbs","Åbyg"],
+      "tabellStrackor": [
+        { "name": "Åby södra – Åby godsbangård", "start": "Åbs", "end": "Åbyg" }
+      ]
+    }
   ]
-},
-{
-  "id": "NRK_fagersta_central_till_kolback",
-  "linjebokId": "NRK",
-  "name": "fagersta_central_till_kolbäck",
-  "ordning": ["Fgn","Fgc","Äbg","Vso","Brh","Rmn","Shr","Hh","Kbä"],
-  "tabellStrackor": [
-    { "name": "Fagersta central – Ängelsberg", "start": "Fgc", "end": "Äbg" },
-    { "name": "Ängelsberg – Virsbo", "start": "Äbg", "end": "Vso" },
-    { "name": "Virsbo – Brattheden", "start": "Vso", "end": "Brh" },
-    { "name": "Brattheden – Surahammar", "start": "Brh", "end": "Shr" },
-    { "name": "Surahammar – Hallstahammar", "start": "Shr", "end": "Hh" },
-    { "name": "Hallstahammar – Kolbäck", "start": "Hh", "end": "Kbä" }
-  ]
-},
-{
-  "id": "NRK_finspang_till_kimstad",
-  "linjebokId": "NRK",
-  "name": "finspång_till_kimstad",
-  "ordning": ["Fg","Sbl","Kms"],
-  "tabellStrackor": [
-    { "name": "Finspång – Kimstad", "start": "Fg", "end": "Kms" }
-  ]
-},
-{
-  "id": "NRK_jadersbruk_till_vasteras_norra",
-  "linjebokId": "NRK",
-  "name": "jädersbruk_till_västerås_norra",
-  "ordning": ["Jbk","Arb","Vsg","Kp","Morp","Kbä","Dt","Våv","Vå","Vån"],
-  "tabellStrackor": [
-    { "name": "Jädersbruk – Arboga", "start": "Jbk", "end": "Arb" },
-    { "name": "Arboga – Valskog", "start": "Arb", "end": "Vsg" },
-    { "name": "Valskog – Köping", "start": "Vsg", "end": "Kp" },
-    { "name": "Köping – Munktorp", "start": "Kp", "end": "Morp" },
-    { "name": "Munktorp – Kolbäck", "start": "Morp", "end": "Kbä" },
-    { "name": "Kolbäck – Västerås västra", "start": "Kbä", "end": "Våv" },
-    { "name": "Västerås västra – Västerås central", "start": "Våv", "end": "Vå" },
-    { "name": "Västerås central – Västerås norra", "start": "Vå", "end": "Vån" }
-  ]
-},
-{
-  "id": "NRK_jarna_till_aby_sodra",
-  "linjebokId": "NRK",
-  "name": "järna_till_åby_södra",
-  "ordning": ["Jn","Hlö","Vhd","Lre","Tba","Ssa","Nk","Ebg","Jår","Åba","Kon","Gtå","Åbs"],
-  "tabellStrackor": [
-    { "name": "Järna – Hölö", "start": "Jn", "end": "Hlö" },
-    { "name": "Hölö – Vagnhärad", "start": "Hlö", "end": "Vhd" },
-    { "name": "Vagnhärad – Lästringe", "start": "Vhd", "end": "Lre" },
-    { "name": "Lästringe – Tystberga", "start": "Lre", "end": "Tba" },
-    { "name": "Tystberga – Sjösa", "start": "Tba", "end": "Ssa" },
-    { "name": "Sjösa – Nyköpings central", "start": "Ssa", "end": "Nk" },
-    { "name": "Nyköpings central – Enstaberga", "start": "Nk", "end": "Ebg" },
-    { "name": "Enstaberga – Jönåker", "start": "Ebg", "end": "Jår" },
-    { "name": "Jönåker – Ålberga", "start": "Jår", "end": "Åba" },
-    { "name": "Ålberga – Kolmården", "start": "Åba", "end": "Kon" },
-    { "name": "Kolmården – Getå", "start": "Kon", "end": "Gtå" },
-    { "name": "Getå – Åby södra", "start": "Gtå", "end": "Åbs" }
-  ]
-},
-{
-  "id": "NRK_katrineholms_central_till_gamlarp",
-  "linjebokId": "NRK",
-  "name": "katrineholms_central_till_gamlarp",
-  "ordning": ["K","Stö","Smt","Åbs","Nr","Fi","Kms","Nh","Gi","Lgm","Lp","Vsd","Mt","My","Lkn","Bx","Smn","Tns","Gp","Frd","Ras","Any","Fls","Vim","Gmp"],
-  "tabellStrackor": [
-    { "name": "Katrineholm – Strångsjö", "start": "K", "end": "Stö" },
-    { "name": "Strångsjö – Simonstorp", "start": "Stö", "end": "Smt" },
-    { "name": "Simonstorp – Åby södra", "start": "Smt", "end": "Åbs" },
-    { "name": "Åby södra – Norrköping", "start": "Åbs", "end": "Nr" },
-    { "name": "Norrköping – Fiskeby", "start": "Nr", "end": "Fi" },
-    { "name": "Fiskeby – Kimstad", "start": "Fi", "end": "Kms" },
-    { "name": "Kimstad – Gistad", "start": "Kms", "end": "Gi" },
-    { "name": "Gistad – Linghem", "start": "Gi", "end": "Lgm" },
-    { "name": "Linghem – Linköping", "start": "Lgm", "end": "Lp" },
-    { "name": "Linköping – Vikingstad", "start": "Lp", "end": "Vsd" },
-    { "name": "Vikingstad – Mantorp", "start": "Vsd", "end": "Mt" },
-    { "name": "Mantorp – Mjölby", "start": "Mt", "end": "My" },
-    { "name": "Mjölby – Lindekullen", "start": "My", "end": "Lkn" },
-    { "name": "Lindekullen – Boxholm", "start": "Lkn", "end": "Bx" },
-    { "name": "Boxholm – Sommen", "start": "Bx", "end": "Smn" },
-    { "name": "Sommen – Tranås", "start": "Smn", "end": "Tns" },
-    { "name": "Tranås – Gripenberg", "start": "Tns", "end": "Gp" },
-    { "name": "Gripenberg – Frinnaryd", "start": "Gp", "end": "Frd" },
-    { "name": "Frinnaryd – Ralingsås", "start": "Frd", "end": "Ras" },
-    { "name": "Ralingsås – Flisby", "start": "Ras", "end": "Fls" },
-    { "name": "Flisby – Vimnarp", "start": "Fls", "end": "Vim" },
-    { "name": "Vimnarp – Gamlarp", "start": "Vim", "end": "Gmp" }
-  ]
-},
-{
-  "id": "NRK_kolback_till_rekarne",
-  "linjebokId": "NRK",
-  "name": "kolbäck_till_rekarne",
-  "ordning": ["Kbä","Ssh","Ksu","Ksus","Rke"],
-  "tabellStrackor": [
-    { "name": "Kolbäck – Strömsholm", "start": "Kbä", "end": "Ssh" },
-    { "name": "Strömsholm – Kvicksund", "start": "Ssh", "end": "Ksu" },
-    { "name": "Kvicksund – Rekarne", "start": "Ksu", "end": "Rke" }
-  ]
-},
-{
-  "id": "NRK_linkopings_central_till_rimforsa",
-  "linjebokId": "NRK",
-  "name": "linköpings_central_till_rimforsa",
-  "ordning": ["Lp","Tn","Hj","Suf","Bsä","Bsp","Brk","Gäd","Oph","Rfb","Rf"],
-  "tabellStrackor": [
-    { "name": "Linköping – Hjulsbro", "start": "Lp", "end": "Hj" },
-    { "name": "Hjulsbro – Bjärka Säby", "start": "Hj", "end": "Bsä" },
-    { "name": "Bjärka Säby – Bestorp", "start": "Bsä", "end": "Bsp" },
-    { "name": "Bestorp – Brokind", "start": "Bsp", "end": "Brk" },
-    { "name": "Brokind – Gärdala", "start": "Brk", "end": "Gäd" },
-    { "name": "Gärdala – Opphem", "start": "Gäd", "end": "Oph" },
-    { "name": "Opphem – Rimforsa", "start": "Oph", "end": "Rf" }
-  ]
-},
-{
-  "id": "NRK_nybybruk_till_folkesta",
-  "linjebokId": "NRK",
-  "name": "nybybruk_till_folkesta",
-  "ordning": ["Nbr","Snl","Fok"],
-  "tabellStrackor": [
-    { "name": "Nybybruk – Folkesta", "start": "Nbr", "end": "Fok" }
-  ]
-},
-{
-  "id": "NRK_snyten_till_angelsberg",
-  "linjebokId": "NRK",
-  "name": "snyten_till_ängelsberg",
-  "ordning": ["Snt","Äbgb","Äbg"],
-  "tabellStrackor": [
-    { "name": "Snyten – Ängelsberg", "start": "Snt", "end": "Äbg" }
-  ]
-},
-{
-  "id": "NRK_sodertalje_syd_ovre_till_eskilstuna_central",
-  "linjebokId": "NRK",
-  "name": "södertälje_syd_övre_till_eskilstuna_central",
-  "ordning": ["Söö","Alä","Nkv","Ryb","Lg","Gru","Mby","Sgs","Häd","Bva","Kju","Et"],
-  "tabellStrackor": [
-    { "name": "Södertälje syd övre – Nykvarn", "start": "Söö", "end": "Nkv" },
-    { "name": "Nykvarn – Ryssjöbrink", "start": "Nkv", "end": "Ryb" },
-    { "name": "Ryssjöbrink – Läggesta", "start": "Ryb", "end": "Lg" },
-    { "name": "Läggesta – Grundbro", "start": "Lg", "end": "Gru" },
-    { "name": "Grundbro – Malmby", "start": "Gru", "end": "Mby" },
-    { "name": "Malmby – Strängnäs", "start": "Mby", "end": "Sgs" },
-    { "name": "Strängnäs – Härad", "start": "Sgs", "end": "Häd" },
-    { "name": "Härad – Barva", "start": "Häd", "end": "Bva" },
-    { "name": "Barva – Kjula", "start": "Bva", "end": "Kju" },
-    { "name": "Kjula – Eskilstuna central", "start": "Kju", "end": "Et" }
-  ]
-},
-{
-  "id": "NRK_valskog_till_oxelosund",
-  "linjebokId": "NRK",
-  "name": "valskog_till_oxelösund",
-  "ordning": ["Vsg","Kör","Rke","Fok","Et","Skrp","Hål","Bgv","Hnä","Mlö","Fsö","Fle","Sii","Vre","Nks","Oxd"],
-  "tabellStrackor": [
-    { "name": "Valskog – Kungsör", "start": "Vsg", "end": "Kör" },
-    { "name": "Kungsör – Rekarne", "start": "Kör", "end": "Rke" },
-    { "name": "Rekarne – Folkesta", "start": "Rke", "end": "Fok" },
-    { "name": "Folkesta – Eskilstuna central", "start": "Fok", "end": "Et" },
-    { "name": "Eskilstuna central – Skogstorp", "start": "Et", "end": "Skrp" },
-    { "name": "Skogstorp – Hållsta", "start": "Skrp", "end": "Hål" },
-    { "name": "Hållsta – Bälgviken", "start": "Hål", "end": "Bgv" },
-    { "name": "Bälgviken – Hälleforsnäs", "start": "Bgv", "end": "Hnä" },
-    { "name": "Hälleforsnäs – Mellösa", "start": "Hnä", "end": "Mlö" },
-    { "name": "Mellösa – Flens övre", "start": "Mlö", "end": "Fsö" },
-    { "name": "Flens övre – Flen", "start": "Fsö", "end": "Fle" },
-    { "name": "Flens övre – Silinge", "start": "Fsö", "end": "Sii" },
-    { "name": "Silinge – Bettna", "start": "Sii", "end": "Vre" },
-    { "name": "Vrena – Nyköpings södra", "start": "Vre", "end": "Nks" },
-    { "name": "Nyköpings södra – Oxelösund", "start": "Nks", "end": "Oxd" }
-  ]
-},
-{
-  "id": "NRK_vasteras_norra_till_sala",
-  "linjebokId": "NRK",
-  "name": "västerås_norra_till_sala",
-  "ordning": ["Vån","Tb","Rt","Sl"],
-  "tabellStrackor": [
-    { "name": "Västerås norra – Tillberga", "start": "Vån", "end": "Tb" },
-    { "name": "Tillberga – Ransta", "start": "Tb", "end": "Rt" },
-    { "name": "Ransta – Sala", "start": "Rt", "end": "Sl" }
-  ]
-},
-{
-  "id": "NRK_aby_sodra_till_aby_gods",
-  "linjebokId": "NRK",
-  "name": "åby_södra_till_åby_godsbangård",
-  "ordning": ["Åbs","Åbyg"],
-  "tabellStrackor": [
-    { "name": "Åby södra – Åby godsbangård", "start": "Åbs", "end": "Åbyg" }
-  ]
+}
+
