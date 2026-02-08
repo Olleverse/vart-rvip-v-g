@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lokförarens Linjeboks-sökare</title>
-    <style>
-        body { font-family: sans-serif; margin: 20px; max-width: 600px; }
-        input { width: 100%; padding: 10px; margin: 5px 0; font-size: 1.1rem; }
-        button { padding: 10px 15px; font-size: 1.1rem; }
-        .result { margin-top: 20px; padding: 15px; background: #f3f3f3; border-radius: 6px; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Linjebok & fast sträcka</title>
+  <style>
+    body { font-family: sans-serif; margin: 20px; max-width: 620px; }
+    input { width: 100%; padding: 12px; margin: 8px 0; font-size: 1.1rem; }
+    button { padding: 12px 16px; font-size: 1.1rem; width: 100%; }
+    .card { margin-top: 16px; padding: 14px; background: #f3f3f3; border-radius: 8px; }
+    .muted { opacity: .8; }
+    .line { padding: 8px 0; border-bottom: 1px solid #ddd; }
+    .line:last-child { border-bottom: none; }
+  </style>
 </head>
 <body>
 
-<h2>Hitta linjebok och sträckor</h2>
+  <h2>Linjebok & fast sträcka</h2>
+  <div class="muted">Skriv start och slutdriftplats (kod eller namn).</div>
 
-<input id="start" placeholder="Startdriftplats (t.ex. G eller Flemingsberg)">
-<input id="slut" placeholder="Slutdriftplats">
+  <input id="start" list="dpList" placeholder="Start (t.ex. Sk eller Skövde)" autocomplete="off" />
+  <input id="slut" list="dpList" placeholder="Slut (t.ex. G eller Göteborg)" autocomplete="off" />
 
-<button onclick="searchRoute()">Sök sträcka</button>
+  <datalist id="dpList"></datalist>
 
-<div id="output" class="result"></div>
+  <button onclick="searchRoute()">Sök</button>
 
-<script src="app.js"></script>
+  <div id="output" class="card"></div>
 
+  <script src="app.js"></script>
 </body>
 </html>
