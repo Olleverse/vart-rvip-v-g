@@ -1,1 +1,12 @@
-
+{
+  "adminPin": "6431",
+  "linjebocker": [
+    { "id": "MAL", "name": "Malmö" },
+    { "id": "GBG", "name": "Göteborg" },
+    { "id": "BDN", "name": "Boden" },
+    { "id": "GAV", "name": "Gävle" },
+    { "id": "HAL", "name": "Hallsberg" },
+    { "id": "NRK", "name": "Norrköping" },
+    { "id": "STH", "name": "Stockholm" },
+    { "id": "ANG", "name": "Ånge" }
+  ]
