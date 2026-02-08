@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokförarens Linjeboks-sökare</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; max-width: 600px; }
+        input { width: 100%; padding: 10px; margin: 5px 0; font-size: 1.1rem; }
+        button { padding: 10px 15px; font-size: 1.1rem; }
+        .result { margin-top: 20px; padding: 15px; background: #f3f3f3; border-radius: 6px; }
+    </style>
+</head>
+<body>
 
+<h2>Hitta linjebok och sträckor</h2>
+
+<input id="start" placeholder="Startdriftplats (t.ex. G eller Flemingsberg)">
+<input id="slut" placeholder="Slutdriftplats">
+
+<button onclick="searchRoute()">Sök sträcka</button>
+
+<div id="output" class="result"></div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
