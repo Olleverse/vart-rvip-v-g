@@ -1,4 +1,8 @@
 {
+  "linjebok": {
+    "id": "D5_Sk_G",
+    "name": "TC Göteborg – Underlag till linjebok D5: Sk → G"
+  },
   "driftplatser": [
     { "code": "Sk", "name": "Skövde central" },
     { "code": "Rmtp", "name": "Regumatorp" },
@@ -28,54 +32,12 @@
     { "code": "Or", "name": "Olskroken" },
     { "code": "G", "name": "Göteborgs central" }
   ],
-
-  "linjebocker": [
-    { "id": "D5_Sk_G", "name": "TC Göteborg – Underlag till linjebok D5: Sk → G" }
+  "ordning": [
+    "Sk","Rmtp","Ss","Fn","F","Fby","Kä","Hrc","Hrv","Agg","A","Bgs","Vbd","Ns","Ndv","Fd","Sn","Lr","Asd","Apn","J","Jv","P","Sel","Gsv","Or","G"
   ],
-
-  "edges": [
-    { "from": "Sk", "to": "Rmtp", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "Rmtp", "to": "Ss", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "Ss", "to": "Fn", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "Fn", "to": "F", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "F", "to": "Fby", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "Fby", "to": "Kä", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "Kä", "to": "Hrc", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "Hrc", "to": "Hrv", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "Hrv", "to": "Agg", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "Agg", "to": "A", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "A", "to": "Bgs", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "Bgs", "to": "Vbd", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "Vbd", "to": "Ns", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "Ns", "to": "Ndv", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "Ndv", "to": "Fd", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "Fd", "to": "Sn", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "Sn", "to": "Lr", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "Lr", "to": "Asd", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "Asd", "to": "Apn", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "Apn", "to": "J", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "J", "to": "Jv", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "Jv", "to": "P", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "P", "to": "Sel", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "Sel", "to": "Gsv", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "Gsv", "to": "Or", "bandel": "?", "linjebocker": ["D5_Sk_G"] },
-    { "from": "Or", "to": "G", "bandel": "?", "linjebocker": ["D5_Sk_G"] }
-  ],
-
-  "fastaStrackor": [
-    {
-      "id": "SkC-Partille",
-      "name": "Skövde C – Partille",
-      "start": "Sk",
-      "end": "P",
-      "klass": "B"
-    },
-    {
-      "id": "Partille-GbgC",
-      "name": "Partille – Göteborg C",
-      "start": "P",
-      "end": "G",
-      "klass": "D"
-    }
+  "hastighetsStrackor": [
+    { "id": "HS_1_Sk_P", "name": "Skövde C – Partille", "start": "Sk", "end": "P" },
+    { "id": "HS_2_P_G", "name": "Partille – Göteborg C", "start": "P", "end": "G" }
   ]
 }
+
